@@ -800,7 +800,7 @@ class _CreatAccountWidgetState extends State<CreatAccountWidget>
                                   }
                                   final buttoCreateUserRecord = snapshot.data!;
                                   return FFButtonWidget(
-                                    onPressed: (_model.emailAddressController
+                                    onPressed: ((_model.emailAddressController
                                                         .text ==
                                                     null ||
                                                 _model.emailAddressController
@@ -820,7 +820,7 @@ class _CreatAccountWidgetState extends State<CreatAccountWidget>
                                                         null ||
                                                     _model.confirmPasswordController
                                                             .text ==
-                                                        ''))
+                                                        '')))
                                         ? null
                                         : () async {
                                             GoRouter.of(context)

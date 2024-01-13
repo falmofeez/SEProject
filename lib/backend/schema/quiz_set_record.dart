@@ -36,11 +36,23 @@ class QuizSetRecord extends FirestoreRecord {
   String get description => _description ?? '';
   bool hasDescription() => _description != null;
 
+  // "comment" field.
+  String? _comment;
+  String get comment => _comment ?? '';
+  bool hasComment() => _comment != null;
+
+  // "ratingStars" field.
+  int? _ratingStars;
+  int get ratingStars => _ratingStars ?? 0;
+  bool hasRatingStars() => _ratingStars != null;
+
   void _initializeFields() {
     _quizName = snapshotData['quizName'] as String?;
     _duration = castToType<int>(snapshotData['duration']);
     _totalQuestions = castToType<int>(snapshotData['totalQuestions']);
     _description = snapshotData['description'] as String?;
+    _comment = snapshotData['comment'] as String?;
+    _ratingStars = castToType<int>(snapshotData['ratingStars']);
   }
 
   static CollectionReference get collection =>
@@ -82,6 +94,8 @@ Map<String, dynamic> createQuizSetRecordData({
   int? duration,
   int? totalQuestions,
   String? description,
+  String? comment,
+  int? ratingStars,
 }) {
   final firestoreData = mapToFirestore(
     <String, dynamic>{
@@ -89,6 +103,8 @@ Map<String, dynamic> createQuizSetRecordData({
       'duration': duration,
       'totalQuestions': totalQuestions,
       'description': description,
+      'comment': comment,
+      'ratingStars': ratingStars,
     }.withoutNulls,
   );
 
@@ -103,12 +119,20 @@ class QuizSetRecordDocumentEquality implements Equality<QuizSetRecord> {
     return e1?.quizName == e2?.quizName &&
         e1?.duration == e2?.duration &&
         e1?.totalQuestions == e2?.totalQuestions &&
-        e1?.description == e2?.description;
+        e1?.description == e2?.description &&
+        e1?.comment == e2?.comment &&
+        e1?.ratingStars == e2?.ratingStars;
   }
 
   @override
-  int hash(QuizSetRecord? e) => const ListEquality()
-      .hash([e?.quizName, e?.duration, e?.totalQuestions, e?.description]);
+  int hash(QuizSetRecord? e) => const ListEquality().hash([
+        e?.quizName,
+        e?.duration,
+        e?.totalQuestions,
+        e?.description,
+        e?.comment,
+        e?.ratingStars
+      ]);
 
   @override
   bool isValidKey(Object? o) => o is QuizSetRecord;

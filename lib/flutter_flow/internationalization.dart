@@ -109,338 +109,349 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     'pwgwj3ze': {
       'en': 'Welcome Back,',
-      'ar': '',
+      'ar': 'مرحبًا بعودتك،',
     },
     'dvo11jjn': {
       'en': 'Email Address',
-      'ar': '',
+      'ar': 'عنوان البريد الإلكتروني',
     },
     '4ralgwrb': {
       'en': 'Enter your email here...',
-      'ar': '',
+      'ar': 'أدخل عنوان بريدك الإلكتروني هنا...',
     },
     '683dtx63': {
       'en': 'Password',
-      'ar': '',
+      'ar': 'كلمة المرور',
     },
     '3x9v3p7l': {
       'en': 'Enter your password here...',
-      'ar': '',
+      'ar': 'أدخل كلمة المرور الخاصة بك هنا...',
     },
     'zr0jatn1': {
       'en': 'Forgot Password?',
-      'ar': '',
+      'ar': 'هل نسيت كلمة السر؟',
     },
     'sjck1c74': {
       'en': 'Login',
-      'ar': '',
+      'ar': 'تسجيل الدخول',
     },
     'sbyja0bb': {
       'en': 'Create Account',
-      'ar': '',
+      'ar': 'إنشاء حساب',
     },
     '0irbwvr1': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'الرئيسية',
     },
   },
   // Headpage
   {
     'jbjum51a': {
       'en': 'Study With Us!',
-      'ar': '',
+      'ar': 'ادرس معنا!',
     },
     'bgzvils0': {
       'en':
-          'BrainTech is here to help tech students by providing \ndifferent learning materials from trusted sources,\n join us to help you with your journey! ',
-      'ar': '',
+          'BrainTech is here to help tech students by providing different learning materials from trusted sources,\n join us to help you with your journey! ',
+      'ar':
+          'BrainTech هنا لمساعدة طلاب التقنية من خلال توفير مواد تعليمية مختلفة من مصادر موثوقة،\n انضم إلينا لمساعدتك في رحلتك!',
     },
     '8vny8tx2': {
       'en': 'Login',
-      'ar': '',
+      'ar': 'تسجيل الدخول',
     },
     'a4x8cr1m': {
       'en': 'OR',
-      'ar': '',
+      'ar': 'أو',
     },
     'm4hfdo8e': {
       'en': 'Create an account',
-      'ar': '',
+      'ar': 'إنشاء حساب',
     },
     'wnu3wyz7': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'الرئيسية',
     },
   },
   // courses
   {
     'pwihcegu': {
       'en': 'Courses',
-      'ar': '',
+      'ar': 'الدورات',
     },
     'vhotuz5m': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'الرئيسية',
     },
   },
   // creatAccount
   {
     '1nf45epv': {
       'en': 'Get Started',
-      'ar': '',
+      'ar': 'البدء',
     },
     'olpj20ts': {
       'en': 'Email Address',
-      'ar': '',
+      'ar': 'عنوان البريد الإلكتروني',
     },
     'rm2cji4e': {
       'en': 'Enter your email here...',
-      'ar': '',
+      'ar': 'أدخل عنوان بريدك الإلكتروني هنا...',
     },
     'lyuj1eum': {
       'en': 'Password',
-      'ar': '',
+      'ar': 'كلمة المرور',
     },
     'tumpoeu1': {
       'en': 'Enter your password here...',
-      'ar': '',
+      'ar': 'أدخل كلمة المرور الخاصة بك هنا...',
     },
     '5t4inza4': {
       'en': 'Confirm Password',
-      'ar': '',
+      'ar': 'تأكيد كلمة المرور',
     },
     '75est7lp': {
       'en': 'Confirm your password here...',
-      'ar': '',
+      'ar': 'قم بتأكيد كلمة المرور الخاصة بك هنا...',
     },
     's1mlqd5f': {
       'en': 'Name',
-      'ar': '',
+      'ar': 'اسم',
     },
     'w53mri6i': {
       'en': 'Enter your name here...',
-      'ar': '',
+      'ar': 'أدخل اسمك هنا...',
     },
     'wqe984e4': {
       'en': 'Log In',
-      'ar': '',
+      'ar': 'تسجيل الدخول',
     },
     '0afs59o8': {
       'en': 'Create Account',
-      'ar': '',
+      'ar': 'إنشاء حساب',
     },
     '03vcq5ub': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'بيت',
     },
   },
   // resetPassword
   {
     '2hewbons': {
       'en': 'Back',
-      'ar': '',
+      'ar': 'عودة',
     },
     'olzpzsx7': {
       'en': 'Forgot Password',
-      'ar': '',
+      'ar': 'هل نسيت كلمة السر',
     },
     '5npq0o8h': {
       'en':
           'We will send you an email with a link to reset your password, please enter the email associated with your account below.',
-      'ar': '',
+      'ar':
+          'سنرسل إليك بريدًا إلكترونيًا يحتوي على رابط لإعادة تعيين كلمة المرور الخاصة بك، يرجى إدخال البريد الإلكتروني المرتبط بحسابك أدناه.',
     },
     '9vc8eouw': {
       'en': 'Your email address...',
-      'ar': '',
+      'ar': 'عنوان بريدك  الإلكتروني...',
     },
     'bkjvtk2k': {
       'en': 'Enter your email...',
-      'ar': '',
+      'ar': 'أدخل بريدك الإلكتروني...',
     },
     'chjrnv19': {
       'en': 'Send Link',
-      'ar': '',
+      'ar': 'أرسل الرابط',
     },
     'g8u7xnem': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'الرئيسية',
     },
   },
   // learningMaterial
   {
     'izjve8pq': {
       'en': 'Videos',
-      'ar': '',
+      'ar': 'مقاطع الفيديو',
     },
     're7iev9l': {
       'en': 'Search...',
-      'ar': '',
+      'ar': 'البحث...',
     },
     'abkwietn': {
       'en': '4.25',
-      'ar': '',
+      'ar': '4.25',
     },
     '8eu3uvv7': {
       'en': 'Library',
-      'ar': '',
+      'ar': 'المكتبة',
     },
     'biemjcmz': {
       'en': ' 01 Introduction',
-      'ar': '',
+      'ar': '01 مقدمة',
     },
     'ovxekbdu': {
       'en':
           'Introduction to Java is a course that provides an overview of the Java programming language and its fundamentals. ',
-      'ar': '',
+      'ar':
+          'مقدمة إلى Java هي دورة تدريبية تقدم نظرة عامة على لغة برمجة Java وأساسياتها.',
     },
     'fpnggoxb': {
       'en': ' 02 Introduction to Problem Solving',
-      'ar': '',
+      'ar': '02 مقدمة لحل المشكلات',
     },
     'ylpu581l': {
       'en':
           'The Problem Solving in Java course focuses on developing problem-solving skills using the Java programming language.',
-      'ar': '',
+      'ar':
+          'تركز دورة حل المشكلات في Java على تطوير مهارات حل المشكلات باستخدام لغة برمجة Java.',
     },
     'fq6ze5h5': {
       'en': ' 03 Fundamentals - Numeric data',
-      'ar': '',
+      'ar': '03 الأساسيات - البيانات الرقمية',
     },
     'jc8rvhmh': {
       'en':
           ' Numeric Data is a course that introduces students to the basics of working with numeric data in computer programming. ',
-      'ar': '',
+      'ar':
+          'البيانات الرقمية هي دورة تعرّف الطلاب على أساسيات العمل مع البيانات الرقمية في برمجة الكمبيوتر.',
     },
     'vqv2tvay': {
       'en': ' 04 Fundementals - Arrays',
-      'ar': '',
+      'ar': '04 الأساسيات - المصفوفات',
     },
     'szotec36': {
       'en':
           'In this course, students will learn how to declare, initialize, and access elements in an array. The course will cover different types of arrays, including one-dimensional arrays and multi-dimensional arrays.',
-      'ar': '',
+      'ar':
+          'في هذه الدورة، سوف يتعلم الطلاب كيفية الإعلان عن العناصر وتهيئتها والوصول إليها في المصفوفة. ستغطي الدورة أنواعًا مختلفة من المصفوفات، بما في ذلك المصفوفات أحادية البعد والمصفوفات متعددة الأبعاد.',
     },
     'hz4v5b9j': {
       'en': ' 05 Fundementals - String',
-      'ar': '',
+      'ar': '05 الأساسيات - السلسلة',
     },
     'jp7j63d8': {
       'en':
           'In this course, students will learn how to declare, initialize, and manipulate strings. They will explore various string operations, such as concatenation, substring extraction, length calculation.',
-      'ar': '',
+      'ar':
+          'في هذه الدورة، سيتعلم الطلاب كيفية الإعلان عن السلاسل وتهيئتها ومعالجتها. سوف يستكشفون عمليات السلسلة المختلفة، مثل التسلسل، واستخراج السلسلة الفرعية، وحساب الطول.',
     },
     'np9dlssz': {
       'en': 'Quizzez',
-      'ar': '',
+      'ar': 'الاختبارات',
     },
     '6wuplzal': {
       'en': 'Introduction to Programming',
-      'ar': '',
+      'ar': 'مقدمة في البرمجة',
     },
     'me8zz08g': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'بيت',
     },
   },
   // ProfilePage
   {
     'fh00nwgn': {
       'en': 'Edit Profile',
-      'ar': '',
+      'ar': 'تعديل الملف الشخصي',
     },
     'phllca9t': {
       'en': 'Change Password',
-      'ar': '',
+      'ar': 'تغيير كلمة المرور',
     },
     'd7jmskrw': {
       'en': 'Notification Settings',
-      'ar': '',
+      'ar': 'إعدادات الإشعار',
     },
     '00d9nvrz': {
       'en': 'Terms of Services',
-      'ar': '',
+      'ar': 'شروط الخدمة',
+    },
+    '4osrzuy3': {
+      'en': 'Invite friends',
+      'ar': 'ادعو أصدقاء',
     },
     '47fyjs32': {
       'en': 'Delete Account',
-      'ar': '',
+      'ar': 'حذف الحساب',
     },
     'h53xa6w9': {
       'en': 'Personal Account',
-      'ar': '',
+      'ar': 'حساب شخصي',
     },
   },
   // EditProfile
   {
     '8vaxhiy1': {
       'en': 'Your information',
-      'ar': '',
+      'ar': 'معلوماتك',
     },
     'tffy7xon': {
       'en': 'Your Name',
-      'ar': '',
+      'ar': 'اسمك',
     },
     '1wapcay5': {
       'en': 'Your Email',
-      'ar': '',
+      'ar': 'بريدك الالكتروني',
     },
     'xj6guvzt': {
       'en': 'New email',
-      'ar': '',
+      'ar': 'بريد إلكتروني جديد',
     },
     'uhevivzy': {
       'en': 'Your new email',
-      'ar': '',
+      'ar': 'بريدك الإلكتروني الجديد',
     },
     'xdpxg5ow': {
       'en': 'Confirm email',
-      'ar': '',
+      'ar': 'تأكيد عنوان البريد الإلكتروني',
     },
     'gs7ulgy7': {
       'en': 'Confirm your email',
-      'ar': '',
+      'ar': 'قم بتأكيد بريدك الإلكتروني',
     },
     '88n8pi54': {
       'en': 'Save Changes',
-      'ar': '',
+      'ar': 'حفظ التغييرات',
     },
     'xn9n8mkc': {
       'en': 'Edit Profile',
-      'ar': '',
+      'ar': 'تعديل الملف الشخصي',
     },
     '1va4m5cb': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'الرئيسية',
     },
   },
   // ChangePassword
   {
     '9vf8osss': {
       'en': 'Your Password',
-      'ar': '',
+      'ar': 'كلمة السر خاصتك',
     },
     '9xaidw06': {
       'en': 'Current password',
-      'ar': '',
+      'ar': 'كلمة السر الحالية',
     },
     'ytyzuckg': {
       'en': 'New Password',
-      'ar': '',
+      'ar': 'كلمة المرور الجديدة',
     },
     'f9m5wt82': {
       'en': 'Confirm new password',
-      'ar': '',
+      'ar': 'تأكيد كلمة المرور الجديدة',
     },
     '7hv2oya3': {
       'en': 'Save Changes',
-      'ar': '',
+      'ar': 'حفظ التغييرات',
     },
     'juwkp4vv': {
       'en': 'Change Password',
-      'ar': '',
+      'ar': 'تغيير كلمة المرور',
     },
     'dr1p74is': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'الرئيسية',
     },
   },
   // NotificationSet
@@ -448,211 +459,215 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     'vjr2ljcz': {
       'en':
           'Choose what notifcations you want to recieve below and we will update the settings.',
-      'ar': '',
+      'ar': 'اختر الإشعارات التي تريد تلقيها أدناه وسنقوم بتحديث الإعدادات.',
     },
     'q7oyu62g': {
       'en': 'Push Notifications',
-      'ar': '',
+      'ar': 'اشعارات التطبيق',
     },
     'a2lzo35g': {
       'en':
           'Receive Push notifications from our application on a semi regular basis.',
-      'ar': '',
+      'ar': 'تلقي إشعارات الدفع من تطبيقنا بشكل شبه منتظم.',
     },
     'q65ldxk3': {
       'en': 'Email Notifications',
-      'ar': '',
+      'ar': 'اشعارات البريد الالكتروني',
     },
     'p15u5swt': {
       'en':
           'Receive email notifications from our application about new learning materials.',
-      'ar': '',
+      'ar':
+          'تلقي إشعارات عبر البريد الإلكتروني من تطبيقنا حول المواد التعليمية الجديدة.',
     },
     'emlj089n': {
       'en': 'Save Changes',
-      'ar': '',
+      'ar': 'حفظ التغييرات',
     },
     'z1beykjz': {
       'en': 'Notification Settings',
-      'ar': '',
+      'ar': 'إعدادات الإشعار',
     },
     'qit7aye3': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'الرئيسية',
     },
   },
   // ContactUs
   {
     'ka2ojf1z': {
       'en': 'Welcome to support',
-      'ar': '',
+      'ar': 'مرحبا بكم في الدعم',
     },
     'i8wdjrib': {
       'en': 'How can we help you?',
-      'ar': '',
+      'ar': 'كيف يمكننا مساعدتك؟',
     },
     'drkyiyb1': {
       'en': 'BrainTechSupport@gmail.com',
-      'ar': '',
+      'ar': 'BrainTechSupport@gmail.com',
     },
     'ltdrpeo7': {
       'en': 'Review FAQ\'s below',
-      'ar': '',
+      'ar': 'قم بمراجعة الأسئلة الشائعة أدناه',
     },
     '8ayq6ttn': {
       'en': 'What should I do if I forget my password?',
-      'ar': '',
+      'ar': 'ماذا يجب أن أفعل إذا نسيت كلمة المرور الخاصة بي؟',
     },
     'ajwtqtbb': {
       'en':
           'If you forget your password, click on the \"Forgot Password\" link on the login page. Enter the email address associated with your account, and you will receive an email with instructions on how to reset your password. Follow the instructions in the email to reset your password',
-      'ar': '',
+      'ar':
+          'إذا نسيت كلمة المرور الخاصة بك، فانقر على رابط \"نسيت كلمة المرور\" في صفحة تسجيل الدخول. أدخل عنوان البريد الإلكتروني المرتبط بحسابك، وسوف تتلقى رسالة بريد إلكتروني تحتوي على تعليمات حول كيفية إعادة تعيين كلمة المرور الخاصة بك. اتبع الإرشادات الموجودة في البريد الإلكتروني لإعادة تعيين كلمة المرور الخاصة بك',
     },
     'psbxtw5u': {
       'en': 'How can I update my profile information?',
-      'ar': '',
+      'ar': 'كيف يمكنني تحديث معلومات ملفي الشخصي؟',
     },
     'vvug6l8a': {
       'en':
           'To update your profile information, click on the edit profile section. You can typically find this option under your Account, you can edit details such as your email address, and username. Save your changes once you\'re done.',
-      'ar': '',
+      'ar':
+          'لتحديث معلومات ملفك الشخصي، انقر فوق قسم تعديل الملف الشخصي. يمكنك عادةً العثور على هذا الخيار ضمن حسابك، ويمكنك تعديل التفاصيل مثل عنوان بريدك الإلكتروني واسم المستخدم. احفظ تغييراتك بمجرد الانتهاء.',
     },
     'hyg9ru70': {
       'en': 'How do I delete my account and associated data from the app?',
-      'ar': '',
+      'ar': 'كيف يمكنني حذف حسابي والبيانات المرتبطة به من التطبيق؟',
     },
     'fvua1f60': {
       'en':
           'To delete your account and associated data from the app, go to your account. Look for the option to delete your account. Follow the prompts to confirm the deletion. Please note that deleting your account is typically an irreversible action, and all your data will be permanently removed from the app.',
-      'ar': '',
+      'ar':
+          'لحذف حسابك والبيانات المرتبطة به من التطبيق، انتقل إلى حسابك. ابحث عن خيار حذف حسابك. اتبع المطالبات لتأكيد الحذف. يرجى ملاحظة أن حذف حسابك عادة ما يكون إجراء لا رجعة فيه، وستتم إزالة جميع بياناتك نهائيًا من التطبيق.',
     },
     'vdek6687': {
       'en': 'Contact Us',
-      'ar': '',
+      'ar': 'اتصل بنا',
     },
     'p0jw9u2t': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'بيت',
     },
   },
   // FavoriteList
   {
     '6zs17l4b': {
       'en': 'Favorite List',
-      'ar': '',
+      'ar': 'قائمة المفضلة',
     },
     'f97od2wi': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'الرئيسية',
     },
   },
   // learningMaterialCopy
   {
     '0woixpv2': {
       'en': 'Videos',
-      'ar': '',
+      'ar': 'مقاطعال فيديو',
     },
     '4wifwsut': {
       'en': 'Search...',
-      'ar': '',
+      'ar': 'البحث...',
     },
     'fhldmoea': {
       'en': '4.25',
-      'ar': '',
+      'ar': '4.25',
     },
     'szdsqfqk': {
       'en': 'Library',
-      'ar': '',
+      'ar': 'المكتبة',
     },
     '5zqjl0qy': {
       'en': 'Work in progress',
-      'ar': '',
+      'ar': 'أعمال جارية',
     },
     '0vp6c3t0': {
       'en': '..',
-      'ar': '',
+      'ar': '..',
     },
     'omvzvyhj': {
       'en': '4.25',
-      'ar': '',
+      'ar': '4.25',
     },
     '03iox4vm': {
       'en': 'Work in progress',
-      'ar': '',
+      'ar': 'أعمال جارية',
     },
     'yxb3l18n': {
       'en': '..',
-      'ar': '',
+      'ar': '..',
     },
     'eparvi4l': {
       'en': '4.25',
-      'ar': '',
+      'ar': '4.25',
     },
     'zl1f235x': {
       'en': 'Quizzez',
-      'ar': '',
+      'ar': 'الاختبارات',
     },
     'cg1pbtio': {
       'en': 'Oriented Objective Programming',
-      'ar': '',
+      'ar': 'البرمجة الشيئية',
     },
     'jhatji8l': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'بيت',
     },
   },
   // quizPage
   {
     'dwtj7tn3': {
       'en': 'Quiz',
-      'ar': '',
+      'ar': 'اختبار',
     },
     'qpkeja6h': {
       'en': 'Complete',
-      'ar': '',
+      'ar': 'انهاء ',
     },
     'lyg52cjf': {
       'en': 'Next',
-      'ar': '',
+      'ar': 'التالي',
     },
     'jdji8kze': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'الرئيسية',
     },
   },
   // AddQuiz
   {
     '7yxb3z7j': {
       'en': 'Write Question',
-      'ar': '',
+      'ar': 'اكتب سؤال ',
     },
     'x6sggyds': {
       'en': 'Option A',
-      'ar': '',
+      'ar': 'الخيار أ',
     },
     '3igjf13p': {
       'en': 'Option B',
-      'ar': '',
+      'ar': 'الخيار ب',
     },
     '59ddqmxw': {
       'en': 'Option C',
-      'ar': '',
+      'ar': 'الخيار ج',
     },
     'vl8vjl8d': {
       'en': 'Option D',
-      'ar': '',
+      'ar': 'الخيار د',
     },
     'q6yejbcx': {
       'en': 'Add Question\n',
-      'ar': '',
+      'ar': 'أضف سؤال',
     },
     '5uh0fe1n': {
       'en': 'Add Quiz',
-      'ar': '',
+      'ar': 'إضافة مسابقة',
     },
     '7eu2ok70': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'الرئيسية',
     },
   },
   // TermsOfService
@@ -660,251 +675,412 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     'g52ehxbl': {
       'en':
           'Welcome to BrainTech!\nThese Terms of Service govern your access to and use of our BrainTech System. Please read these Terms carefully before using our platform.',
-      'ar': '',
+      'ar':
+          'مرحبا بكم في BrainTech!\nتحكم شروط الخدمة هذه وصولك إلى نظام BrainTech واستخدامه. يرجى قراءة هذه الشروط بعناية قبل استخدام منصتنا.',
     },
     '92h7ngnd': {
       'en': '1. Acceptance of Terms',
-      'ar': '',
+      'ar': '1. قبول الشروط',
     },
     'e8fo4rvf': {
       'en':
           'By accessing or using BrainTech, you agree to be bound by these Terms and any additional guidelines or rules applicable to specific features or services within BrainTech. If you do not agree to these Terms, please refrain from using our platform',
-      'ar': '',
+      'ar':
+          'من خلال الوصول إلى BrainTech أو استخدامه، فإنك توافق على الالتزام بهذه الشروط وأي إرشادات أو قواعد إضافية تنطبق على ميزات أو خدمات محددة داخل BrainTech. إذا كنت لا توافق على هذه الشروط، فيرجى الامتناع عن استخدام منصتنا',
     },
     '1g72rogx': {
       'en': '2.User Accounts',
-      'ar': '',
+      'ar': '2. حسابات المستخدمين',
     },
     'rqv8euml': {
       'en':
           '2.1 Registration: To access certain features, you may need to create a user account. You agree to provide and complete information during the registration process and to keep your account information up to date.\n\n2.2 Account Security: You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You agree to notify us immediately of any unauthorized use or suspected breach of security.',
-      'ar': '',
+      'ar':
+          '2.1 التسجيل: للوصول إلى ميزات معينة، قد تحتاج إلى إنشاء حساب مستخدم. أنت توافق على تقديم واستكمال المعلومات أثناء عملية التسجيل والحفاظ على تحديث معلومات حسابك.\n\n2.2 أمان الحساب: أنت مسؤول عن الحفاظ على سرية بيانات اعتماد حسابك وعن جميع الأنشطة التي تحدث ضمن حسابك. أنت توافق على إخطارنا فورًا بأي استخدام غير مصرح به أو خرق أمني مشتبه به.',
     },
     'aw0nbt1s': {
       'en': '3. User Responsibilities',
-      'ar': '',
+      'ar': '3. مسؤوليات المستخدم',
     },
     '5q3metzf': {
       'en':
           '3.1 You are responsible for your interactions with other users on BrainTech. We reserve the right to monitor user activity and take appropriate action if violations of these Terms are identified.\n\n3.2 You shall not engage in any activity that may interfere with or disrupt the functioning of BrainTech or compromise its security.',
-      'ar': '',
+      'ar':
+          '3.1 أنت مسؤول عن تفاعلاتك مع المستخدمين الآخرين على BrainTech. نحن نحتفظ بالحق في مراقبة نشاط المستخدم واتخاذ الإجراء المناسب في حالة اكتشاف انتهاكات لهذه الشروط.\n\n3.2 لا يجوز لك المشاركة في أي نشاط قد يتعارض مع عمل BrainTech أو يعطله أو يعرض أمنه للخطر.',
     },
     'duat7rxq': {
       'en': '4. Limitations',
-      'ar': '',
+      'ar': '4. القيود',
     },
     'ma4hpn24': {
       'en':
           'BrainTech provides the platform on an \"as is\" and \"as available\" basis. We do not warrant that the platform will be error-free, uninterrupted, or free from viruses or other harmful components.',
-      'ar': '',
+      'ar':
+          'توفر BrainTech النظام الأساسي \"كما هو\" و\"كما هو متاح\". نحن لا نضمن أن النظام الأساسي سيكون خاليًا من الأخطاء أو غير منقطع أو خاليًا من الفيروسات أو المكونات الضارة الأخرى.',
     },
     'm6l55kye': {
       'en': '5. Changes to the Terms',
-      'ar': '',
+      'ar': '5. التغييرات في الشروط',
     },
     'os4a69gy': {
       'en':
           'We reserve the right to modify or update these Terms at any time. We will provide notice of significant changes through BrainTech or other means. Your continued use of the platform after such changes indicates your acceptance of the modified Terms.',
-      'ar': '',
+      'ar':
+          'نحن نحتفظ بالحق في تعديل أو تحديث هذه الشروط في أي وقت. سنقدم إشعارًا بالتغييرات المهمة من خلال BrainTech أو وسائل أخرى. يشير استمرار استخدامك للمنصة بعد هذه التغييرات إلى موافقتك على الشروط المعدلة.',
     },
     'c6tap30i': {
       'en': 'Terms Of Service',
-      'ar': '',
+      'ar': 'شروط الخدمة',
     },
     'ejuykjmj': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'بيت',
     },
   },
   // DiscussionPage
   {
     'z5dyfm2l': {
       'en': 'Randy Mcdonald',
-      'ar': '',
+      'ar': 'راندي ماكدونالد',
     },
     '47s9s9ma': {
       'en':
           'This was really great, i\'m so glad that we could  catchup this weekend.',
-      'ar': '',
+      'ar':
+          'لقد كان هذا رائعًا حقًا، وأنا سعيد جدًا لأننا تمكنا من اللحاق في نهاية هذا الأسبوع.',
     },
     'tx773ss6': {
       'en': 'Mon. July 3rd - 4:12pm',
-      'ar': '',
+      'ar': 'الاثنين. 3 يوليو - 4:12 مساءً',
     },
     'ksj2xor5': {
       'en': 'Randy Mcdonald',
-      'ar': '',
+      'ar': 'راندي ماكدونالد',
     },
     'jjyqmnqb': {
       'en':
           'This was really great, i\'m so glad that we could  catchup this weekend.',
-      'ar': '',
+      'ar':
+          'لقد كان هذا رائعًا حقًا، وأنا سعيد جدًا لأننا تمكنا من اللحاق في نهاية هذا الأسبوع.',
     },
     'ltogq4p8': {
       'en': 'Mon. July 3rd - 4:12pm',
-      'ar': '',
+      'ar': 'الاثنين. 3 يوليو - 4:12 مساءً',
     },
     'xgaemhv6': {
       'en': 'Randy Mcdonald',
-      'ar': '',
+      'ar': 'راندي ماكدونالد',
     },
     '6xhp07kz': {
       'en':
           'This was really great, i\'m so glad that we could  catchup this weekend.',
-      'ar': '',
+      'ar':
+          'لقد كان هذا رائعًا حقًا، وأنا سعيد جدًا لأننا تمكنا من اللحاق في نهاية هذا الأسبوع.',
     },
     'r2nmd62a': {
       'en': 'Mon. July 3rd - 4:12pm',
-      'ar': '',
+      'ar': 'الاثنين. 3 يوليو - 4:12 مساءً',
     },
     'cf89n1d3': {
       'en': 'Randy Mcdonald',
-      'ar': '',
+      'ar': 'راندي ماكدونالد',
     },
     '4lshy4b2': {
       'en':
           'This was really great, i\'m so glad that we could  catchup this weekend.',
-      'ar': '',
+      'ar':
+          'لقد كان هذا رائعًا حقًا، وأنا سعيد جدًا لأننا تمكنا من اللحاق في نهاية هذا الأسبوع.',
     },
     'byi44osm': {
       'en': 'Mon. July 3rd - 4:12pm',
-      'ar': '',
+      'ar': 'الاثنين. 3 يوليو - 4:12 مساءً',
     },
     'tduo0h79': {
       'en': 'My Chats',
-      'ar': '',
+      'ar': 'دردشاتي',
     },
     'r6ha24lz': {
       'en': '__',
-      'ar': '',
+      'ar': '__',
     },
   },
   // finishpage
   {
     '18329hxj': {
       'en': 'Congrats!',
-      'ar': '',
+      'ar': 'تهاني!',
     },
     'oo9w7qh4': {
       'en': 'Go Home',
-      'ar': '',
+      'ar': 'عودة  للرئيسية',
     },
   },
   // createQuiz
   {
     'mad20gb9': {
       'en': 'Title',
-      'ar': '',
+      'ar': 'عنوان',
     },
     'ui3yggg9': {
       'en': 'Enter the title here..',
-      'ar': '',
+      'ar': 'أدخل العنوان هنا ..',
     },
     'gnblggg6': {
       'en': 'Duration',
-      'ar': '',
+      'ar': 'مدة',
     },
     'jzt3fkcd': {
       'en': 'Enter the duration here in seconds..',
-      'ar': '',
+      'ar': 'أدخل المدة هنا بالثواني..',
     },
     'cy27bdfz': {
       'en': 'Create set',
-      'ar': '',
+      'ar': 'إنشاء مجموعة',
     },
     'v7r58uq8': {
       'en': 'Available sets',
-      'ar': '',
+      'ar': 'الاختبارات المتاحة',
     },
     'uyjgvsem': {
       'en': 'Create quiz',
-      'ar': '',
+      'ar': 'إنشاء اختبار',
     },
     '8e2i0nto': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'الرئيسية',
     },
   },
   // C101
   {
     'f4tawmdd': {
       'en': 'Introduction',
-      'ar': '',
+      'ar': 'مقدمة',
     },
     'av3ucy2r': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'بيت',
     },
   },
   // C102
   {
     '00m7mpek': {
       'en': 'Introduction To Problem Solving',
-      'ar': '',
+      'ar': 'مقدمة لحل المشكلات',
     },
     'we35s2fo': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'بيت',
     },
   },
   // C103
   {
     'c1xvavdl': {
       'en': 'Fundementals - Numeric Data',
-      'ar': '',
+      'ar': 'الأساسيات - البيانات الرقمية',
     },
     'urg6y0mk': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'بيت',
     },
   },
   // C104
   {
     'n0vo2abn': {
       'en': '04 Fundementals - Arrays',
-      'ar': '',
+      'ar': '04 الأساسيات - المصفوفات',
     },
     '135pcxgp': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'بيت',
     },
   },
   // C105
   {
     'mt2vawrh': {
       'en': '05 Fundementals - String',
-      'ar': '',
+      'ar': '05 الأساسيات - السلسلة',
     },
     'ju2j76j9': {
       'en': 'Home',
-      'ar': '',
+      'ar': 'بيت',
+    },
+  },
+  // chat_2_Details
+  {
+    'irzzdyt6': {
+      'en': 'Group Chat',
+      'ar': 'مجموعة محادثة',
+    },
+    '898vm4px': {
+      'en': 'Home',
+      'ar': 'بيت',
+    },
+  },
+  // chat_2_main
+  {
+    'iriq0lp0': {
+      'en': 'Below are your chats and group chats',
+      'ar': 'فيما يلي الدردشات والمحادثات الجماعية الخاصة بك',
+    },
+    'f09uu8za': {
+      'en': 'My Chats',
+      'ar': 'دردشاتي',
+    },
+    'jvhkftt7': {
+      'en': '__',
+      'ar': '__',
+    },
+  },
+  // chat_2_InviteUsers
+  {
+    'qsx5exg0': {
+      'en': 'Invite Friends',
+      'ar': 'ادعو أصدقاء',
+    },
+    'ig07fdxc': {
+      'en': 'Selected',
+      'ar': 'المحدد',
+    },
+    'd9i9txrr': {
+      'en': 'Invite Friends',
+      'ar': 'ادعو أصدقاء',
+    },
+    'sop0w9w0': {
+      'en': 'Select users from below to start a chat.',
+      'ar': 'حدد المستخدمين من الأسفل لبدء الدردشة.',
+    },
+    'y3ulzi50': {
+      'en': 'Home',
+      'ar': 'بيت',
+    },
+  },
+  // image_Details
+  {
+    '4d5mx1ve': {
+      'en': 'Home',
+      'ar': 'بيت',
     },
   },
   // menu
   {
     'h9jxnp9a': {
       'en': 'Personal Account ',
-      'ar': '',
+      'ar': 'حساب شخصي',
     },
     'cjm1nbyg': {
       'en': 'Favorite list',
-      'ar': '',
+      'ar': 'القائمة المفضلة',
     },
     '016mtc1b': {
       'en': 'Discussion board',
-      'ar': '',
+      'ar': 'لوحة النقاش',
     },
     '9u75mweu': {
       'en': 'Contact us',
-      'ar': '',
+      'ar': 'اتصل بنا',
     },
     '51vyxsbq': {
       'en': 'Logout',
-      'ar': '',
+      'ar': 'تسجيل خروج',
+    },
+  },
+  // rateQuiz
+  {
+    'jofevtbh': {
+      'en': 'How was the Quiz?',
+      'ar': 'كيف كان الاختبار؟',
+    },
+    'nrf2wihi': {
+      'en': 'Give us your honest feedback!',
+      'ar': 'أعطنا ملاحظاتك بكل صدق!',
+    },
+    'u6ifi7au': {
+      'en': 'Leave a comment..',
+      'ar': 'اترك تعليقا..',
+    },
+    'hqn36zo1': {
+      'en': 'submit',
+      'ar': 'تسليم',
+    },
+  },
+  // chat_DetailsOverlay
+  {
+    'cqvtpbx5': {
+      'en': 'Group Chat ID: ',
+      'ar': 'معرف الدردشة الجماعية:',
+    },
+    'jg7is68v': {
+      'en': 'In this chat',
+      'ar': 'في هذه الدردشة',
+    },
+    '24j26pzl': {
+      'en': 'Close',
+      'ar': 'يغلق',
+    },
+  },
+  // chat_ThreadComponent
+  {
+    'wxi1zc8r': {
+      'en': 'Start typing here...',
+      'ar': 'ابدأ بالكتابة هنا...',
+    },
+    'n6irfix8': {
+      'en': 'You must enter a message...',
+      'ar': 'يجب عليك إدخال رسالة...',
+    },
+    'uinhc8t3': {
+      'en': 'Please choose an option from the dropdown',
+      'ar': 'يرجى اختيار خيار من القائمة المنسدلة',
+    },
+  },
+  // user_ListSmall
+  {
+    'rl3evtgt': {
+      'en': 'ME',
+      'ar': 'أنا',
+    },
+  },
+  // deleteDialog
+  {
+    'vpwity6o': {
+      'en': 'Options',
+      'ar': 'خيارات',
+    },
+    'zaks648k': {
+      'en': 'Invite Users',
+      'ar': 'دعوة المستخدمين',
+    },
+    '5ihdh1df': {
+      'en': 'Delete Chat',
+      'ar': 'حذف الدردشة',
+    },
+    'mh74pqq3': {
+      'en': 'Confirm Delete',
+      'ar': 'تأكيد الحذف',
+    },
+    'fcdcbj6b': {
+      'en': 'You can\'t undo this action.',
+      'ar': 'لا يمكنك التراجع عن هذا الإجراء.',
+    },
+    'id3lww6u': {
+      'en': 'Delete',
+      'ar': 'يمسح',
     },
   },
   // Miscellaneous
   {
+    'p0qegv3d': {
+      'en': '',
+      'ar': '',
+    },
+    'xnbio425': {
+      'en': '',
+      'ar': '',
+    },
+    '90n7flxl': {
+      'en': '',
+      'ar': '',
+    },
     '8ybk4exj': {
       'en': '',
       'ar': '',

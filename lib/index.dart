@@ -35,3 +35,11 @@ export '/c102/c102_widget.dart' show C102Widget;
 export '/c103/c103_widget.dart' show C103Widget;
 export '/c104/c104_widget.dart' show C104Widget;
 export '/c105/c105_widget.dart' show C105Widget;
+export '/chat_group_threads/chat_2_details/chat2_details_widget.dart'
+    show Chat2DetailsWidget;
+export '/chat_group_threads/chat_2_main/chat2_main_widget.dart'
+    show Chat2MainWidget;
+export '/chat_group_threads/chat_2_invite_users/chat2_invite_users_widget.dart'
+    show Chat2InviteUsersWidget;
+export '/chat_group_threads/image_details/image_details_widget.dart'
+    show ImageDetailsWidget;

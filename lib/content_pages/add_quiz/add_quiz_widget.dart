@@ -260,7 +260,7 @@ class _AddQuizWidgetState extends State<AddQuizWidget>
                                             width: 2.0,
                                           ),
                                           borderRadius:
-                                              BorderRadius.circular(0.0),
+                                              BorderRadius.circular(8.0),
                                         ),
                                         focusedBorder: UnderlineInputBorder(
                                           borderSide: BorderSide(
@@ -269,7 +269,7 @@ class _AddQuizWidgetState extends State<AddQuizWidget>
                                             width: 2.0,
                                           ),
                                           borderRadius:
-                                              BorderRadius.circular(0.0),
+                                              BorderRadius.circular(8.0),
                                         ),
                                         errorBorder: UnderlineInputBorder(
                                           borderSide: BorderSide(
@@ -278,7 +278,7 @@ class _AddQuizWidgetState extends State<AddQuizWidget>
                                             width: 2.0,
                                           ),
                                           borderRadius:
-                                              BorderRadius.circular(0.0),
+                                              BorderRadius.circular(8.0),
                                         ),
                                         focusedErrorBorder:
                                             UnderlineInputBorder(
@@ -288,7 +288,7 @@ class _AddQuizWidgetState extends State<AddQuizWidget>
                                             width: 2.0,
                                           ),
                                           borderRadius:
-                                              BorderRadius.circular(0.0),
+                                              BorderRadius.circular(8.0),
                                         ),
                                       ),
                                       style: FlutterFlowTheme.of(context)
@@ -430,7 +430,7 @@ class _AddQuizWidgetState extends State<AddQuizWidget>
                                             width: 2.0,
                                           ),
                                           borderRadius:
-                                              BorderRadius.circular(0.0),
+                                              BorderRadius.circular(8.0),
                                         ),
                                         focusedBorder: UnderlineInputBorder(
                                           borderSide: BorderSide(
@@ -439,7 +439,7 @@ class _AddQuizWidgetState extends State<AddQuizWidget>
                                             width: 2.0,
                                           ),
                                           borderRadius:
-                                              BorderRadius.circular(0.0),
+                                              BorderRadius.circular(8.0),
                                         ),
                                         errorBorder: UnderlineInputBorder(
                                           borderSide: BorderSide(
@@ -448,7 +448,7 @@ class _AddQuizWidgetState extends State<AddQuizWidget>
                                             width: 2.0,
                                           ),
                                           borderRadius:
-                                              BorderRadius.circular(0.0),
+                                              BorderRadius.circular(8.0),
                                         ),
                                         focusedErrorBorder:
                                             UnderlineInputBorder(
@@ -458,7 +458,7 @@ class _AddQuizWidgetState extends State<AddQuizWidget>
                                             width: 2.0,
                                           ),
                                           borderRadius:
-                                              BorderRadius.circular(0.0),
+                                              BorderRadius.circular(8.0),
                                         ),
                                       ),
                                       style: FlutterFlowTheme.of(context)
@@ -600,7 +600,7 @@ class _AddQuizWidgetState extends State<AddQuizWidget>
                                             width: 2.0,
                                           ),
                                           borderRadius:
-                                              BorderRadius.circular(0.0),
+                                              BorderRadius.circular(8.0),
                                         ),
                                         focusedBorder: UnderlineInputBorder(
                                           borderSide: BorderSide(
@@ -609,7 +609,7 @@ class _AddQuizWidgetState extends State<AddQuizWidget>
                                             width: 2.0,
                                           ),
                                           borderRadius:
-                                              BorderRadius.circular(0.0),
+                                              BorderRadius.circular(8.0),
                                         ),
                                         errorBorder: UnderlineInputBorder(
                                           borderSide: BorderSide(
@@ -618,7 +618,7 @@ class _AddQuizWidgetState extends State<AddQuizWidget>
                                             width: 2.0,
                                           ),
                                           borderRadius:
-                                              BorderRadius.circular(0.0),
+                                              BorderRadius.circular(8.0),
                                         ),
                                         focusedErrorBorder:
                                             UnderlineInputBorder(
@@ -628,7 +628,7 @@ class _AddQuizWidgetState extends State<AddQuizWidget>
                                             width: 2.0,
                                           ),
                                           borderRadius:
-                                              BorderRadius.circular(0.0),
+                                              BorderRadius.circular(8.0),
                                         ),
                                       ),
                                       style: FlutterFlowTheme.of(context)
@@ -770,7 +770,7 @@ class _AddQuizWidgetState extends State<AddQuizWidget>
                                             width: 2.0,
                                           ),
                                           borderRadius:
-                                              BorderRadius.circular(0.0),
+                                              BorderRadius.circular(8.0),
                                         ),
                                         focusedBorder: UnderlineInputBorder(
                                           borderSide: BorderSide(
@@ -779,7 +779,7 @@ class _AddQuizWidgetState extends State<AddQuizWidget>
                                             width: 2.0,
                                           ),
                                           borderRadius:
-                                              BorderRadius.circular(0.0),
+                                              BorderRadius.circular(8.0),
                                         ),
                                         errorBorder: UnderlineInputBorder(
                                           borderSide: BorderSide(
@@ -788,7 +788,7 @@ class _AddQuizWidgetState extends State<AddQuizWidget>
                                             width: 2.0,
                                           ),
                                           borderRadius:
-                                              BorderRadius.circular(0.0),
+                                              BorderRadius.circular(8.0),
                                         ),
                                         focusedErrorBorder:
                                             UnderlineInputBorder(
@@ -798,7 +798,7 @@ class _AddQuizWidgetState extends State<AddQuizWidget>
                                             width: 2.0,
                                           ),
                                           borderRadius:
-                                              BorderRadius.circular(0.0),
+                                              BorderRadius.circular(8.0),
                                         ),
                                       ),
                                       style: FlutterFlowTheme.of(context)

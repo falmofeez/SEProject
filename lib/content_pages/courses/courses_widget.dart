@@ -1,12 +1,10 @@
 import '/auth/firebase_auth/auth_util.dart';
-import '/backend/backend.dart';
 import '/entery_pages/menu/menu_widget.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
+import '/flutter_flow/flutter_flow_language_selector.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_toggle_icon.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -116,18 +114,22 @@ class _CoursesWidgetState extends State<CoursesWidget> {
           automaticallyImplyLeading: false,
           leading: Stack(
             children: [
-              FlutterFlowIconButton(
-                borderRadius: 20.0,
-                borderWidth: 1.0,
-                buttonSize: 50.0,
-                icon: Icon(
-                  Icons.list_sharp,
-                  color: FlutterFlowTheme.of(context).primaryText,
-                  size: 24.0,
-                ),
-                onPressed: () async {
-                  scaffoldKey.currentState!.openDrawer();
-                },
+              Stack(
+                children: [
+                  FlutterFlowIconButton(
+                    borderRadius: 20.0,
+                    borderWidth: 1.0,
+                    buttonSize: 50.0,
+                    icon: Icon(
+                      Icons.list_sharp,
+                      color: FlutterFlowTheme.of(context).primaryText,
+                      size: 24.0,
+                    ),
+                    onPressed: () async {
+                      scaffoldKey.currentState!.openDrawer();
+                    },
+                  ),
+                ],
               ),
             ],
           ),
@@ -145,19 +147,24 @@ class _CoursesWidgetState extends State<CoursesWidget> {
           ),
           actions: [
             Padding(
-              padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 60.0, 0.0),
-              child: FlutterFlowIconButton(
-                borderRadius: 20.0,
-                borderWidth: 1.0,
-                buttonSize: 30.0,
-                icon: Icon(
-                  Icons.search,
-                  color: FlutterFlowTheme.of(context).primaryText,
-                  size: 24.0,
+              padding: EdgeInsetsDirectional.fromSTEB(0.0, 10.0, 20.0, 10.0),
+              child: FlutterFlowLanguageSelector(
+                width: 100.0,
+                backgroundColor: Color(0xFF247A96),
+                borderColor: Colors.transparent,
+                dropdownIconColor: Colors.white,
+                borderRadius: 8.0,
+                textStyle: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.normal,
+                  fontSize: 13.0,
                 ),
-                onPressed: () {
-                  print('IconButton pressed ...');
-                },
+                hideFlags: true,
+                flagSize: 24.0,
+                flagTextGap: 8.0,
+                currentLanguage: FFLocalizations.of(context).languageCode,
+                languages: FFLocalizations.languages(),
+                onChanged: (lang) => setAppLanguage(context, lang),
               ),
             ),
           ],
@@ -267,55 +274,6 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                                     ),
                                   ),
                                 ),
-                                Align(
-                                  alignment: AlignmentDirectional(1.0, 1.0),
-                                  child: Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    children: [
-                                      Align(
-                                        alignment:
-                                            AlignmentDirectional(1.0, 1.0),
-                                        child: ToggleIcon(
-                                          onPressed: () async {
-                                            setState(
-                                              () => FFAppState().saved.contains(
-                                                      currentUserReference)
-                                                  ? FFAppState()
-                                                      .removeFromSaved(
-                                                          currentUserReference!)
-                                                  : FFAppState().addToSaved(
-                                                      currentUserReference!),
-                                            );
-
-                                            await currentUserReference!.update({
-                                              ...mapToFirestore(
-                                                {
-                                                  'favlists':
-                                                      FieldValue.arrayUnion([
-                                                    currentUserReference
-                                                  ]),
-                                                },
-                                              ),
-                                            });
-                                          },
-                                          value: FFAppState()
-                                              .saved
-                                              .contains(currentUserReference),
-                                          onIcon: Icon(
-                                            Icons.favorite_sharp,
-                                            color: Color(0xFFB01016),
-                                            size: 25.0,
-                                          ),
-                                          offIcon: Icon(
-                                            Icons.favorite_border,
-                                            color: Color(0xFFB01016),
-                                            size: 25.0,
-                                          ),
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
                               ],
                             ),
                           ),
@@ -410,50 +368,6 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                                             ),
                                           ),
                                         ),
-                                        Align(
-                                          alignment:
-                                              AlignmentDirectional(1.0, 1.0),
-                                          child: ToggleIcon(
-                                            onPressed: () async {
-                                              setState(
-                                                () => FFAppState()
-                                                        .saved
-                                                        .contains(
-                                                            currentUserReference)
-                                                    ? FFAppState()
-                                                        .removeFromSaved(
-                                                            currentUserReference!)
-                                                    : FFAppState().addToSaved(
-                                                        currentUserReference!),
-                                              );
-
-                                              await currentUserReference!
-                                                  .update({
-                                                ...mapToFirestore(
-                                                  {
-                                                    'favlists':
-                                                        FieldValue.arrayUnion([
-                                                      currentUserReference
-                                                    ]),
-                                                  },
-                                                ),
-                                              });
-                                            },
-                                            value: FFAppState()
-                                                .saved
-                                                .contains(currentUserReference),
-                                            onIcon: Icon(
-                                              Icons.favorite_sharp,
-                                              color: Color(0xFFB01016),
-                                              size: 25.0,
-                                            ),
-                                            offIcon: Icon(
-                                              Icons.favorite_border,
-                                              color: Color(0xFFB01016),
-                                              size: 25.0,
-                                            ),
-                                          ),
-                                        ),
                                       ],
                                     ),
                                   ),
@@ -519,45 +433,6 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                                                               .bodyMediumFamily),
                                                 ),
                                           ),
-                                        ),
-                                      ),
-                                    ),
-                                    Align(
-                                      alignment:
-                                          AlignmentDirectional(0.0, -1.0),
-                                      child: ToggleIcon(
-                                        onPressed: () async {
-                                          setState(
-                                            () => FFAppState().saved.contains(
-                                                    currentUserReference)
-                                                ? FFAppState().removeFromSaved(
-                                                    currentUserReference!)
-                                                : FFAppState().addToSaved(
-                                                    currentUserReference!),
-                                          );
-
-                                          await currentUserReference!.update({
-                                            ...mapToFirestore(
-                                              {
-                                                'favlists':
-                                                    FieldValue.arrayUnion(
-                                                        [currentUserReference]),
-                                              },
-                                            ),
-                                          });
-                                        },
-                                        value: FFAppState()
-                                            .saved
-                                            .contains(currentUserReference),
-                                        onIcon: Icon(
-                                          Icons.favorite_sharp,
-                                          color: Color(0xFFB01016),
-                                          size: 25.0,
-                                        ),
-                                        offIcon: Icon(
-                                          Icons.favorite_border,
-                                          color: Color(0xFFB01016),
-                                          size: 25.0,
                                         ),
                                       ),
                                     ),

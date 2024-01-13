@@ -145,8 +145,8 @@ class _MenuWidgetState extends State<MenuWidget> {
                     color: FlutterFlowTheme.of(context).primaryText,
                     size: 24.0,
                   ),
-                  onPressed: () {
-                    print('IconButton pressed ...');
+                  onPressed: () async {
+                    context.pushNamed('chat_2_main');
                   },
                 ),
               ),

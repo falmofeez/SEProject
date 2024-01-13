@@ -183,16 +183,6 @@ class _NotificationSetWidgetState extends State<NotificationSetWidget> {
                   valueOrDefault<bool>(currentUserDocument?.admin, false),
               onChanged: (newValue) async {
                 setState(() => _model.switchListTileValue2 = newValue!);
-                if (newValue!) {
-                  _model.apiResultzie = await BFEmailUpcomingCourseGroup
-                      .emailUpcomingCourseCall
-                      .call(
-                    to: currentUserEmail,
-                    subject: 'Braintech Upcoming',
-                  );
-
-                  setState(() {});
-                }
               },
               title: Text(
                 FFLocalizations.of(context).getText(
@@ -230,7 +220,10 @@ class _NotificationSetWidgetState extends State<NotificationSetWidget> {
             padding: EdgeInsetsDirectional.fromSTEB(0.0, 24.0, 0.0, 0.0),
             child: FFButtonWidget(
               onPressed: () async {
-                await currentUserReference!.update(createUserRecordData());
+                await currentUserReference!.update(createUserRecordData(
+                  nofification:
+                      valueOrDefault(currentUserDocument?.nofification, ''),
+                ));
               },
               text: FFLocalizations.of(context).getText(
                 'emlj089n' /* Save Changes */,

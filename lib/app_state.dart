@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'flutter_flow/request_manager.dart';
 import '/backend/backend.dart';
 import 'backend/api_requests/api_manager.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -36,9 +37,11 @@ class FFAppState extends ChangeNotifier {
           prefs.getString('ff_intialSearchDataS') ?? _intialSearchDataS;
     });
     _safeInit(() {
-      _saved =
-          prefs.getStringList('ff_saved')?.map((path) => path.ref).toList() ??
-              _saved;
+      _savedToFav = prefs
+              .getStringList('ff_savedToFav')
+              ?.map((path) => path.ref)
+              .toList() ??
+          _savedToFav;
     });
   }
 
@@ -136,40 +139,60 @@ class FFAppState extends ChangeNotifier {
     _coursename3 = _value;
   }
 
-  List<DocumentReference> _saved = [];
-  List<DocumentReference> get saved => _saved;
-  set saved(List<DocumentReference> _value) {
-    _saved = _value;
-    prefs.setStringList('ff_saved', _value.map((x) => x.path).toList());
+  List<DocumentReference> _savedToFav = [];
+  List<DocumentReference> get savedToFav => _savedToFav;
+  set savedToFav(List<DocumentReference> _value) {
+    _savedToFav = _value;
+    prefs.setStringList('ff_savedToFav', _value.map((x) => x.path).toList());
   }
 
-  void addToSaved(DocumentReference _value) {
-    _saved.add(_value);
-    prefs.setStringList('ff_saved', _saved.map((x) => x.path).toList());
+  void addToSavedToFav(DocumentReference _value) {
+    _savedToFav.add(_value);
+    prefs.setStringList(
+        'ff_savedToFav', _savedToFav.map((x) => x.path).toList());
   }
 
-  void removeFromSaved(DocumentReference _value) {
-    _saved.remove(_value);
-    prefs.setStringList('ff_saved', _saved.map((x) => x.path).toList());
+  void removeFromSavedToFav(DocumentReference _value) {
+    _savedToFav.remove(_value);
+    prefs.setStringList(
+        'ff_savedToFav', _savedToFav.map((x) => x.path).toList());
   }
 
-  void removeAtIndexFromSaved(int _index) {
-    _saved.removeAt(_index);
-    prefs.setStringList('ff_saved', _saved.map((x) => x.path).toList());
+  void removeAtIndexFromSavedToFav(int _index) {
+    _savedToFav.removeAt(_index);
+    prefs.setStringList(
+        'ff_savedToFav', _savedToFav.map((x) => x.path).toList());
   }
 
-  void updateSavedAtIndex(
+  void updateSavedToFavAtIndex(
     int _index,
     DocumentReference Function(DocumentReference) updateFn,
   ) {
-    _saved[_index] = updateFn(_saved[_index]);
-    prefs.setStringList('ff_saved', _saved.map((x) => x.path).toList());
+    _savedToFav[_index] = updateFn(_savedToFav[_index]);
+    prefs.setStringList(
+        'ff_savedToFav', _savedToFav.map((x) => x.path).toList());
   }
 
-  void insertAtIndexInSaved(int _index, DocumentReference _value) {
-    _saved.insert(_index, _value);
-    prefs.setStringList('ff_saved', _saved.map((x) => x.path).toList());
+  void insertAtIndexInSavedToFav(int _index, DocumentReference _value) {
+    _savedToFav.insert(_index, _value);
+    prefs.setStringList(
+        'ff_savedToFav', _savedToFav.map((x) => x.path).toList());
   }
+
+  final _userDocQueryManager = FutureRequestManager<UserRecord>();
+  Future<UserRecord> userDocQuery({
+    String? uniqueQueryKey,
+    bool? overrideCache,
+    required Future<UserRecord> Function() requestFn,
+  }) =>
+      _userDocQueryManager.performRequest(
+        uniqueQueryKey: uniqueQueryKey,
+        overrideCache: overrideCache,
+        requestFn: requestFn,
+      );
+  void clearUserDocQueryCache() => _userDocQueryManager.clear();
+  void clearUserDocQueryCacheKey(String? uniqueKey) =>
+      _userDocQueryManager.clearRequest(uniqueKey);
 }
 
 LatLng? _latLngFromString(String? val) {

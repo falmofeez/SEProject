@@ -1,4 +1,5 @@
 import '/flutter_flow/flutter_flow_animations.dart';
+import '/flutter_flow/flutter_flow_language_selector.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
@@ -153,6 +154,33 @@ class _HeadpageWidgetState extends State<HeadpageWidget>
         body: Column(
           mainAxisSize: MainAxisSize.max,
           children: [
+            Row(
+              mainAxisSize: MainAxisSize.max,
+              children: [
+                Padding(
+                  padding:
+                      EdgeInsetsDirectional.fromSTEB(260.0, 40.0, 0.0, 0.0),
+                  child: FlutterFlowLanguageSelector(
+                    width: 100.0,
+                    backgroundColor: FlutterFlowTheme.of(context).primary,
+                    borderColor: Colors.transparent,
+                    dropdownIconColor: Colors.white,
+                    borderRadius: 8.0,
+                    textStyle: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.normal,
+                      fontSize: 13.0,
+                    ),
+                    hideFlags: true,
+                    flagSize: 24.0,
+                    flagTextGap: 8.0,
+                    currentLanguage: FFLocalizations.of(context).languageCode,
+                    languages: FFLocalizations.languages(),
+                    onChanged: (lang) => setAppLanguage(context, lang),
+                  ),
+                ),
+              ],
+            ),
             Align(
               alignment: AlignmentDirectional(0.0, 0.0),
               child: Padding(
@@ -175,11 +203,9 @@ class _HeadpageWidgetState extends State<HeadpageWidget>
                 child: Row(
                   mainAxisSize: MainAxisSize.max,
                   children: [
-                    Align(
-                      alignment: AlignmentDirectional(0.0, 0.0),
-                      child: Padding(
-                        padding:
-                            EdgeInsetsDirectional.fromSTEB(60.0, 0.0, 0.0, 0.0),
+                    Flexible(
+                      child: Align(
+                        alignment: AlignmentDirectional(0.0, 0.0),
                         child: Text(
                           FFLocalizations.of(context).getText(
                             'jbjum51a' /* Study With Us! */,
@@ -208,11 +234,9 @@ class _HeadpageWidgetState extends State<HeadpageWidget>
             Row(
               mainAxisSize: MainAxisSize.max,
               children: [
-                Align(
-                  alignment: AlignmentDirectional(1.0, 0.0),
-                  child: Padding(
-                    padding:
-                        EdgeInsetsDirectional.fromSTEB(22.0, 0.0, 0.0, 0.0),
+                Flexible(
+                  child: Align(
+                    alignment: AlignmentDirectional(1.0, 0.0),
                     child: Text(
                       FFLocalizations.of(context).getText(
                         'bgzvils0' /* BrainTech is here to help tech... */,

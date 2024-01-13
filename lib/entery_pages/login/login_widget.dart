@@ -464,7 +464,7 @@ class _LoginWidgetState extends State<LoginWidget>
                                       ),
                                     ),
                                     FFButtonWidget(
-                                      onPressed: (_model.emailAddressController
+                                      onPressed: ((_model.emailAddressController
                                                           .text ==
                                                       null ||
                                                   _model.emailAddressController
@@ -474,7 +474,7 @@ class _LoginWidgetState extends State<LoginWidget>
                                                       null ||
                                                   _model.passwordController
                                                           .text ==
-                                                      '')
+                                                      ''))
                                           ? null
                                           : () async {
                                               GoRouter.of(context)

@@ -528,7 +528,8 @@ class _CreateQuizWidgetState extends State<CreateQuizWidget> {
                                                 6000,
                                         totalQ: listViewQuizSetRecord
                                             .totalQuestions,
-                                        isFav: false,
+                                        isFav: FFAppState().savedToFav.contains(
+                                            listViewQuizSetRecord.reference),
                                         cratedTime: getCurrentTimestamp,
                                       ),
                                     ),

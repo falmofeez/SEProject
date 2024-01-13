@@ -173,6 +173,9 @@ class _LearningMaterialCopyWidgetState extends State<LearningMaterialCopyWidget>
                             ),
                           ],
                           controller: _model.tabBarController,
+                          onTap: (i) async {
+                            [() async {}, () async {}, () async {}][i]();
+                          },
                         ),
                       ),
                       Expanded(

@@ -21,8 +21,6 @@ class NotificationSetModel extends FlutterFlowModel<NotificationSetWidget> {
   ApiCallResponse? apiResultofp;
   // State field(s) for SwitchListTile widget.
   bool? switchListTileValue2;
-  // Stores action output result for [Backend Call - API (emailUpcomingCourse)] action in SwitchListTile widget.
-  ApiCallResponse? apiResultzie;
 
   /// Initialization and disposal methods.
 

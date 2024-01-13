@@ -174,6 +174,9 @@ class _LearningMaterialWidgetState extends State<LearningMaterialWidget>
                             ),
                           ],
                           controller: _model.tabBarController,
+                          onTap: (i) async {
+                            [() async {}, () async {}, () async {}][i]();
+                          },
                         ),
                       ),
                       Expanded(
@@ -1414,7 +1417,11 @@ class _LearningMaterialWidgetState extends State<LearningMaterialWidget>
                                                     totalQ:
                                                         listViewQuizSetRecord
                                                             .totalQuestions,
-                                                    isFav: false,
+                                                    isFav: FFAppState()
+                                                        .savedToFav
+                                                        .contains(
+                                                            listViewQuizSetRecord
+                                                                .reference),
                                                     cratedTime:
                                                         getCurrentTimestamp,
                                                   ),

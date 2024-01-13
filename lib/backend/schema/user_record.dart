@@ -61,6 +61,36 @@ class UserRecord extends FirestoreRecord {
   String get coursname1 => _coursname1 ?? '';
   bool hasCoursname1() => _coursname1 != null;
 
+  // "title" field.
+  String? _title;
+  String get title => _title ?? '';
+  bool hasTitle() => _title != null;
+
+  // "role" field.
+  String? _role;
+  String get role => _role ?? '';
+  bool hasRole() => _role != null;
+
+  // "last_active_time" field.
+  DateTime? _lastActiveTime;
+  DateTime? get lastActiveTime => _lastActiveTime;
+  bool hasLastActiveTime() => _lastActiveTime != null;
+
+  // "shortDescription" field.
+  String? _shortDescription;
+  String get shortDescription => _shortDescription ?? '';
+  bool hasShortDescription() => _shortDescription != null;
+
+  // "notifications" field.
+  bool? _notifications;
+  bool get notifications => _notifications ?? false;
+  bool hasNotifications() => _notifications != null;
+
+  // "nofification" field.
+  String? _nofification;
+  String get nofification => _nofification ?? '';
+  bool hasNofification() => _nofification != null;
+
   void _initializeFields() {
     _email = snapshotData['email'] as String?;
     _displayName = snapshotData['display_name'] as String?;
@@ -71,6 +101,12 @@ class UserRecord extends FirestoreRecord {
     _admin = snapshotData['admin'] as bool?;
     _favlists = getDataList(snapshotData['favlists']);
     _coursname1 = snapshotData['coursname1'] as String?;
+    _title = snapshotData['title'] as String?;
+    _role = snapshotData['role'] as String?;
+    _lastActiveTime = snapshotData['last_active_time'] as DateTime?;
+    _shortDescription = snapshotData['shortDescription'] as String?;
+    _notifications = snapshotData['notifications'] as bool?;
+    _nofification = snapshotData['nofification'] as String?;
   }
 
   static CollectionReference get collection =>
@@ -115,6 +151,12 @@ Map<String, dynamic> createUserRecordData({
   String? phoneNumber,
   bool? admin,
   String? coursname1,
+  String? title,
+  String? role,
+  DateTime? lastActiveTime,
+  String? shortDescription,
+  bool? notifications,
+  String? nofification,
 }) {
   final firestoreData = mapToFirestore(
     <String, dynamic>{
@@ -126,6 +168,12 @@ Map<String, dynamic> createUserRecordData({
       'phone_number': phoneNumber,
       'admin': admin,
       'coursname1': coursname1,
+      'title': title,
+      'role': role,
+      'last_active_time': lastActiveTime,
+      'shortDescription': shortDescription,
+      'notifications': notifications,
+      'nofification': nofification,
     }.withoutNulls,
   );
 
@@ -146,7 +194,13 @@ class UserRecordDocumentEquality implements Equality<UserRecord> {
         e1?.phoneNumber == e2?.phoneNumber &&
         e1?.admin == e2?.admin &&
         listEquality.equals(e1?.favlists, e2?.favlists) &&
-        e1?.coursname1 == e2?.coursname1;
+        e1?.coursname1 == e2?.coursname1 &&
+        e1?.title == e2?.title &&
+        e1?.role == e2?.role &&
+        e1?.lastActiveTime == e2?.lastActiveTime &&
+        e1?.shortDescription == e2?.shortDescription &&
+        e1?.notifications == e2?.notifications &&
+        e1?.nofification == e2?.nofification;
   }
 
   @override
@@ -159,7 +213,13 @@ class UserRecordDocumentEquality implements Equality<UserRecord> {
         e?.phoneNumber,
         e?.admin,
         e?.favlists,
-        e?.coursname1
+        e?.coursname1,
+        e?.title,
+        e?.role,
+        e?.lastActiveTime,
+        e?.shortDescription,
+        e?.notifications,
+        e?.nofification
       ]);
 
   @override
