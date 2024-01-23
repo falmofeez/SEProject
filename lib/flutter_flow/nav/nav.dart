@@ -115,9 +115,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => ResetPasswordWidget(),
         ),
         FFRoute(
-          name: 'learningMaterial',
-          path: '/learningMaterial',
-          builder: (context, params) => LearningMaterialWidget(),
+          name: 'learningMaterialITP',
+          path: '/learningMaterialITP',
+          builder: (context, params) => LearningMaterialITPWidget(),
         ),
         FFRoute(
           name: 'ProfilePage',
@@ -150,9 +150,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => FavoriteListWidget(),
         ),
         FFRoute(
-          name: 'learningMaterialCopy',
-          path: '/learningMaterial2',
-          builder: (context, params) => LearningMaterialCopyWidget(),
+          name: 'learningMaterialOOP',
+          path: '/learningMaterialOOP',
+          builder: (context, params) => LearningMaterialOOPWidget(),
         ),
         FFRoute(
           name: 'quizPage',
@@ -254,6 +254,61 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => ImageDetailsWidget(
             chatMessage: params.getParam('chatMessage', ParamType.Document),
           ),
+        ),
+        FFRoute(
+          name: 'learningMaterialDT',
+          path: '/learningMaterialDT',
+          builder: (context, params) => LearningMaterialDTWidget(),
+        ),
+        FFRoute(
+          name: 'C201',
+          path: '/c201',
+          builder: (context, params) => C201Widget(),
+        ),
+        FFRoute(
+          name: 'C202',
+          path: '/c202',
+          builder: (context, params) => C202Widget(),
+        ),
+        FFRoute(
+          name: 'C203',
+          path: '/c203',
+          builder: (context, params) => C203Widget(),
+        ),
+        FFRoute(
+          name: 'C204',
+          path: '/c204',
+          builder: (context, params) => C204Widget(),
+        ),
+        FFRoute(
+          name: 'C205',
+          path: '/c205',
+          builder: (context, params) => C205Widget(),
+        ),
+        FFRoute(
+          name: 'C301',
+          path: '/c301',
+          builder: (context, params) => C301Widget(),
+        ),
+        FFRoute(
+          name: 'C302',
+          path: '/c302',
+          builder: (context, params) => C302Widget(),
+        ),
+        FFRoute(
+          name: 'C303',
+          path: '/c303',
+          builder: (context, params) => C303Widget(),
+        ),
+        FFRoute(
+          name: 'C304',
+          path: '/c304',
+          builder: (context, params) => C304Widget(),
+        ),
+        FFRoute(
+          name: 'C305',
+          path: '/c305',
+          builder: (context, params) => C305Widget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
       observers: [routeObserver],

@@ -268,7 +268,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ar': 'الرئيسية',
     },
   },
-  // learningMaterial
+  // learningMaterialITP
   {
     'izjve8pq': {
       'en': 'Videos',
@@ -285,56 +285,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     '8eu3uvv7': {
       'en': 'Library',
       'ar': 'المكتبة',
-    },
-    'biemjcmz': {
-      'en': ' 01 Introduction',
-      'ar': '01 مقدمة',
-    },
-    'ovxekbdu': {
-      'en':
-          'Introduction to Java is a course that provides an overview of the Java programming language and its fundamentals. ',
-      'ar':
-          'مقدمة إلى Java هي دورة تدريبية تقدم نظرة عامة على لغة برمجة Java وأساسياتها.',
-    },
-    'fpnggoxb': {
-      'en': ' 02 Introduction to Problem Solving',
-      'ar': '02 مقدمة لحل المشكلات',
-    },
-    'ylpu581l': {
-      'en':
-          'The Problem Solving in Java course focuses on developing problem-solving skills using the Java programming language.',
-      'ar':
-          'تركز دورة حل المشكلات في Java على تطوير مهارات حل المشكلات باستخدام لغة برمجة Java.',
-    },
-    'fq6ze5h5': {
-      'en': ' 03 Fundamentals - Numeric data',
-      'ar': '03 الأساسيات - البيانات الرقمية',
-    },
-    'jc8rvhmh': {
-      'en':
-          ' Numeric Data is a course that introduces students to the basics of working with numeric data in computer programming. ',
-      'ar':
-          'البيانات الرقمية هي دورة تعرّف الطلاب على أساسيات العمل مع البيانات الرقمية في برمجة الكمبيوتر.',
-    },
-    'vqv2tvay': {
-      'en': ' 04 Fundementals - Arrays',
-      'ar': '04 الأساسيات - المصفوفات',
-    },
-    'szotec36': {
-      'en':
-          'In this course, students will learn how to declare, initialize, and access elements in an array. The course will cover different types of arrays, including one-dimensional arrays and multi-dimensional arrays.',
-      'ar':
-          'في هذه الدورة، سوف يتعلم الطلاب كيفية الإعلان عن العناصر وتهيئتها والوصول إليها في المصفوفة. ستغطي الدورة أنواعًا مختلفة من المصفوفات، بما في ذلك المصفوفات أحادية البعد والمصفوفات متعددة الأبعاد.',
-    },
-    'hz4v5b9j': {
-      'en': ' 05 Fundementals - String',
-      'ar': '05 الأساسيات - السلسلة',
-    },
-    'jp7j63d8': {
-      'en':
-          'In this course, students will learn how to declare, initialize, and manipulate strings. They will explore various string operations, such as concatenation, substring extraction, length calculation.',
-      'ar':
-          'في هذه الدورة، سيتعلم الطلاب كيفية الإعلان عن السلاسل وتهيئتها ومعالجتها. سوف يستكشفون عمليات السلسلة المختلفة، مثل التسلسل، واستخراج السلسلة الفرعية، وحساب الطول.',
     },
     'np9dlssz': {
       'en': 'Quizzez',
@@ -561,7 +511,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ar': 'الرئيسية',
     },
   },
-  // learningMaterialCopy
+  // learningMaterialOOP
   {
     '0woixpv2': {
       'en': 'Videos',
@@ -579,36 +529,12 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Library',
       'ar': 'المكتبة',
     },
-    '5zqjl0qy': {
-      'en': 'Work in progress',
-      'ar': 'أعمال جارية',
-    },
-    '0vp6c3t0': {
-      'en': '..',
-      'ar': '..',
-    },
-    'omvzvyhj': {
-      'en': '4.25',
-      'ar': '4.25',
-    },
-    '03iox4vm': {
-      'en': 'Work in progress',
-      'ar': 'أعمال جارية',
-    },
-    'yxb3l18n': {
-      'en': '..',
-      'ar': '..',
-    },
-    'eparvi4l': {
-      'en': '4.25',
-      'ar': '4.25',
-    },
     'zl1f235x': {
       'en': 'Quizzez',
       'ar': 'الاختبارات',
     },
     'cg1pbtio': {
-      'en': 'Oriented Objective Programming',
+      'en': 'Object Oriented Programming',
       'ar': 'البرمجة الشيئية',
     },
     'jhatji8l': {
@@ -853,7 +779,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   // C101
   {
     'f4tawmdd': {
-      'en': 'Introduction',
+      'en': '1 Introduction to Computer Programming',
       'ar': 'مقدمة',
     },
     'av3ucy2r': {
@@ -864,7 +790,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   // C102
   {
     '00m7mpek': {
-      'en': 'Introduction To Problem Solving',
+      'en': '2 Introduction To Problem Solving',
       'ar': 'مقدمة لحل المشكلات',
     },
     'we35s2fo': {
@@ -875,7 +801,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   // C103
   {
     'c1xvavdl': {
-      'en': 'Fundementals - Numeric Data',
+      'en': '3 Fundementals - Numeric Data',
       'ar': 'الأساسيات - البيانات الرقمية',
     },
     'urg6y0mk': {
@@ -886,7 +812,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   // C104
   {
     'n0vo2abn': {
-      'en': '04 Fundementals - Arrays',
+      'en': '4 Fundementals - Arrays',
       'ar': '04 الأساسيات - المصفوفات',
     },
     '135pcxgp': {
@@ -897,7 +823,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   // C105
   {
     'mt2vawrh': {
-      'en': '05 Fundementals - String',
+      'en': '5 Fundementals - String',
       'ar': '05 الأساسيات - السلسلة',
     },
     'ju2j76j9': {
@@ -959,6 +885,147 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     '4d5mx1ve': {
       'en': 'Home',
       'ar': 'بيت',
+    },
+  },
+  // learningMaterialDT
+  {
+    'sf3q77dd': {
+      'en': 'Videos',
+      'ar': 'مقاطعال فيديو',
+    },
+    'qol56f5t': {
+      'en': 'Search...',
+      'ar': 'البحث...',
+    },
+    'lyxpt61s': {
+      'en': '4.25',
+      'ar': '4.25',
+    },
+    'pk254f0q': {
+      'en': 'Library',
+      'ar': 'المكتبة',
+    },
+    'y3j2ijuf': {
+      'en': 'Quizzez',
+      'ar': 'الاختبارات',
+    },
+    'i45vrh62': {
+      'en': 'Data Structures',
+      'ar': 'البرمجة الشيئية',
+    },
+    '8bxi4ndd': {
+      'en': 'Home',
+      'ar': 'بيت',
+    },
+  },
+  // C201
+  {
+    'v8cele6o': {
+      'en': '1 Introduction to Object Oriented Programming',
+      'ar': '',
+    },
+    'jrrmknr1': {
+      'en': 'Home',
+      'ar': '',
+    },
+  },
+  // C202
+  {
+    'vrnc6man': {
+      'en': '2 Methods in Java',
+      'ar': '',
+    },
+    'wltvfq8a': {
+      'en': 'Home',
+      'ar': '',
+    },
+  },
+  // C203
+  {
+    'l4mtnu7i': {
+      'en': '3 Classes and Objects',
+      'ar': '',
+    },
+    'fe6ui9q4': {
+      'en': 'Home',
+      'ar': '',
+    },
+  },
+  // C204
+  {
+    '76mce0p7': {
+      'en': '4 Classes and Other Concepts',
+      'ar': '',
+    },
+    'brc61af1': {
+      'en': 'Home',
+      'ar': '',
+    },
+  },
+  // C205
+  {
+    'kwgrgdse': {
+      'en': '5 Relationships among Classes',
+      'ar': '',
+    },
+    'otb1mdvt': {
+      'en': 'Home',
+      'ar': '',
+    },
+  },
+  // C301
+  {
+    'dziq613h': {
+      'en': '1 Introduction to Data Structures',
+      'ar': '',
+    },
+    '6sa2ovs3': {
+      'en': 'Home',
+      'ar': '',
+    },
+  },
+  // C302
+  {
+    '673q27ag': {
+      'en': '2 Algorithm Analysis',
+      'ar': '',
+    },
+    't66mli0b': {
+      'en': 'Home',
+      'ar': '',
+    },
+  },
+  // C303
+  {
+    'ixmmmczh': {
+      'en': '3 Linked Lists - Part 1',
+      'ar': '',
+    },
+    'wk0zzc3p': {
+      'en': 'Home',
+      'ar': '',
+    },
+  },
+  // C304
+  {
+    '2ok4zqdu': {
+      'en': '4 Linked List - Part 2',
+      'ar': '',
+    },
+    '6xflt9q2': {
+      'en': 'Home',
+      'ar': '',
+    },
+  },
+  // C305
+  {
+    'ehh7hiqa': {
+      'en': '5 Linked List - Part 3',
+      'ar': '',
+    },
+    '9xl4hvbj': {
+      'en': 'Home',
+      'ar': '',
     },
   },
   // menu
