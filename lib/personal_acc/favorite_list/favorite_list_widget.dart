@@ -80,7 +80,7 @@ class _FavoriteListWidgetState extends State<FavoriteListWidget> {
               '6zs17l4b' /* Favorite List */,
             ),
             style: FlutterFlowTheme.of(context).headlineMedium.override(
-                  fontFamily: 'Montserrat',
+                  fontFamily: 'Outfit',
                   color: Colors.white,
                   fontSize: 22.0,
                   useGoogleFonts: GoogleFonts.asMap().containsKey(

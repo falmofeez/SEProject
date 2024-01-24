@@ -1,11 +1,14 @@
 import '/auth/firebase_auth/auth_util.dart';
 import '/backend/backend.dart';
+import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -16,16 +19,35 @@ class RateQuizWidget extends StatefulWidget {
   const RateQuizWidget({
     Key? key,
     required this.comment,
+    required this.rating,
   }) : super(key: key);
 
   final String? comment;
+  final int? rating;
 
   @override
   _RateQuizWidgetState createState() => _RateQuizWidgetState();
 }
 
-class _RateQuizWidgetState extends State<RateQuizWidget> {
+class _RateQuizWidgetState extends State<RateQuizWidget>
+    with TickerProviderStateMixin {
   late RateQuizModel _model;
+
+  final animationsMap = {
+    'ratingBarOnActionTriggerAnimation': AnimationInfo(
+      trigger: AnimationTrigger.onActionTrigger,
+      applyInitialState: true,
+      effects: [
+        ScaleEffect(
+          curve: Curves.easeIn,
+          delay: 240.ms,
+          duration: 1050.ms,
+          begin: Offset(1.0, 1.0),
+          end: Offset(1.0, 1.0),
+        ),
+      ],
+    ),
+  };
 
   @override
   void setState(VoidCallback callback) {
@@ -40,6 +62,13 @@ class _RateQuizWidgetState extends State<RateQuizWidget> {
 
     _model.textController ??= TextEditingController();
     _model.textFieldFocusNode ??= FocusNode();
+
+    setupAnimations(
+      animationsMap.values.where((anim) =>
+          anim.trigger == AnimationTrigger.onActionTrigger ||
+          !anim.applyInitialState),
+      this,
+    );
 
     WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
@@ -130,6 +159,8 @@ class _RateQuizWidgetState extends State<RateQuizWidget> {
                       itemCount: 5,
                       itemSize: 30.0,
                       glowColor: FlutterFlowTheme.of(context).primary,
+                    ).animateOnActionTrigger(
+                      animationsMap['ratingBarOnActionTriggerAnimation']!,
                     ),
                   ],
                 ),
@@ -205,6 +236,7 @@ class _RateQuizWidgetState extends State<RateQuizWidget> {
                         .doc()
                         .set(createQuizSetRecordData(
                           comment: _model.textController.text,
+                          ratingStars: widget.rating,
                         ));
                     Navigator.pop(context);
                   },

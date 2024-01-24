@@ -4,7 +4,6 @@ import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:easy_debounce/easy_debounce.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
@@ -725,7 +724,7 @@ class _CreatAccountWidgetState extends State<CreatAccountWidget>
                             'assets/images/Screenshot_2023-10-13_at_11.30.40_PM-removebg-preview.png',
                             width: 300.0,
                             height: 200.0,
-                            fit: BoxFit.cover,
+                            fit: BoxFit.fitHeight,
                           ),
                         ).animateOnPageLoad(
                             animationsMap['imageOnPageLoadAnimation']!),
@@ -854,20 +853,16 @@ class _CreatAccountWidgetState extends State<CreatAccountWidget>
                                             await UserRecord.collection
                                                 .doc(user.uid)
                                                 .update(createUserRecordData(
-                                                  email: '',
-                                                  displayName: '',
-                                                  photoUrl: '',
-                                                  uid: '',
+                                                  email: _model
+                                                      .emailAddressController
+                                                      .text,
+                                                  displayName: _model
+                                                      .nameController.text,
+                                                  uid:
+                                                      buttoCreateUserRecord.uid,
                                                 ));
 
-                                            await buttoCreateUserRecord
-                                                .reference
-                                                .update(createUserRecordData(
-                                              displayName:
-                                                  _model.nameController.text,
-                                            ));
-
-                                            context.goNamedAuth(
+                                            context.pushNamedAuth(
                                                 'courses', context.mounted);
                                           },
                                     text: FFLocalizations.of(context).getText(

@@ -836,7 +836,7 @@ class _LearningMaterialOOPWidgetState extends State<LearningMaterialOOPWidget>
                                       children: [
                                         Align(
                                           alignment:
-                                              AlignmentDirectional(1.0, 1.0),
+                                              AlignmentDirectional(1.0, -1.0),
                                           child: FlutterFlowIconButton(
                                             borderColor:
                                                 FlutterFlowTheme.of(context)

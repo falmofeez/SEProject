@@ -237,6 +237,7 @@ class _FinishpageWidgetState extends State<FinishpageWidget>
                                 padding: MediaQuery.viewInsetsOf(context),
                                 child: RateQuizWidget(
                                   comment: '',
+                                  rating: 0,
                                 ),
                               ),
                             ));
