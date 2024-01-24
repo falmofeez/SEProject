@@ -1,6 +1,6 @@
 # BrainTech
 
-A new Flutter project.
+A Flutter project for cs students.
 
 ## Getting Started
 
