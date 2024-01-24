@@ -1,6 +1,6 @@
 # BrainTech
 
-A new Flutter Project.
+A new Flutter project.
 
 ## Getting Started
 

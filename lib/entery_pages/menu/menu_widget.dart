@@ -141,12 +141,12 @@ class _MenuWidgetState extends State<MenuWidget> {
                   buttonSize: 35.0,
                   fillColor: FlutterFlowTheme.of(context).secondaryText,
                   icon: Icon(
-                    Icons.wechat_rounded,
+                    Icons.groups_sharp,
                     color: FlutterFlowTheme.of(context).primaryText,
-                    size: 24.0,
+                    size: 20.0,
                   ),
                   onPressed: () async {
-                    context.pushNamed('chat_2_main');
+                    context.pushNamed('DiscussionPage');
                   },
                 ),
               ),

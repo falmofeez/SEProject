@@ -107,7 +107,7 @@ class _TermsOfServiceWidgetState extends State<TermsOfServiceWidget> {
               'c6tap30i' /* Terms Of Service */,
             ),
             style: FlutterFlowTheme.of(context).headlineMedium.override(
-                  fontFamily: 'Montserrat',
+                  fontFamily: 'Outfit',
                   color: Colors.white,
                   fontSize: 22.0,
                   useGoogleFonts: GoogleFonts.asMap().containsKey(

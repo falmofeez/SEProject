@@ -251,7 +251,7 @@ class _QuizPageWidgetState extends State<QuizPageWidget>
                   'dwtj7tn3' /* Quiz */,
                 ),
                 style: FlutterFlowTheme.of(context).headlineMedium.override(
-                      fontFamily: 'Montserrat',
+                      fontFamily: 'Outfit',
                       color: Colors.white,
                       fontSize: 22.0,
                       useGoogleFonts: GoogleFonts.asMap().containsKey(

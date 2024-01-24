@@ -122,7 +122,7 @@ class _AddQuizWidgetState extends State<AddQuizWidget>
             ),
             textAlign: TextAlign.start,
             style: FlutterFlowTheme.of(context).headlineMedium.override(
-                  fontFamily: 'Montserrat',
+                  fontFamily: 'Outfit',
                   color: Colors.white,
                   fontSize: 22.0,
                   useGoogleFonts: GoogleFonts.asMap().containsKey(
@@ -984,7 +984,16 @@ class _AddQuizWidgetState extends State<AddQuizWidget>
                       iconPadding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                       color: FlutterFlowTheme.of(context).primary,
-                      textStyle: FlutterFlowTheme.of(context).titleLarge,
+                      textStyle: FlutterFlowTheme.of(context)
+                          .titleLarge
+                          .override(
+                            fontFamily:
+                                FlutterFlowTheme.of(context).titleLargeFamily,
+                            color:
+                                FlutterFlowTheme.of(context).primaryBackground,
+                            useGoogleFonts: GoogleFonts.asMap().containsKey(
+                                FlutterFlowTheme.of(context).titleLargeFamily),
+                          ),
                       elevation: 0.0,
                       borderSide: BorderSide(
                         color: Colors.transparent,

@@ -25,8 +25,6 @@ export '/content_pages/quiz_page/quiz_page_widget.dart' show QuizPageWidget;
 export '/content_pages/add_quiz/add_quiz_widget.dart' show AddQuizWidget;
 export '/personal_acc/terms_of_service/terms_of_service_widget.dart'
     show TermsOfServiceWidget;
-export '/personal_acc/discussion_page/discussion_page_widget.dart'
-    show DiscussionPageWidget;
 export '/content_pages/finishpage/finishpage_widget.dart' show FinishpageWidget;
 export '/content_pages/create_quiz/create_quiz_widget.dart'
     show CreateQuizWidget;
@@ -35,14 +33,6 @@ export '/lectures/c102/c102_widget.dart' show C102Widget;
 export '/lectures/c103/c103_widget.dart' show C103Widget;
 export '/lectures/c104/c104_widget.dart' show C104Widget;
 export '/lectures/c105/c105_widget.dart' show C105Widget;
-export '/chat_group_threads/chat_2_details/chat2_details_widget.dart'
-    show Chat2DetailsWidget;
-export '/chat_group_threads/chat_2_main/chat2_main_widget.dart'
-    show Chat2MainWidget;
-export '/chat_group_threads/chat_2_invite_users/chat2_invite_users_widget.dart'
-    show Chat2InviteUsersWidget;
-export '/chat_group_threads/image_details/image_details_widget.dart'
-    show ImageDetailsWidget;
 export '/content_pages/learning_material_d_t/learning_material_d_t_widget.dart'
     show LearningMaterialDTWidget;
 export '/lectures/c201/c201_widget.dart' show C201Widget;
@@ -55,3 +45,6 @@ export '/lectures/c302/c302_widget.dart' show C302Widget;
 export '/lectures/c303/c303_widget.dart' show C303Widget;
 export '/lectures/c304/c304_widget.dart' show C304Widget;
 export '/lectures/c305/c305_widget.dart' show C305Widget;
+export '/discussion_board/discussion_page/discussion_page_widget.dart'
+    show DiscussionPageWidget;
+export '/discussion_board/chat/chat_widget.dart' show ChatWidget;

@@ -1,5 +1,4 @@
 import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_toggle_icon.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -179,28 +178,6 @@ class _QuizSetsWidgetState extends State<QuizSetsWidget> {
                     ],
                   ),
                 ],
-              ),
-              Expanded(
-                child: Align(
-                  alignment: AlignmentDirectional(1.0, 1.0),
-                  child: ToggleIcon(
-                    onPressed: () async {
-                      setState(
-                          () => FFAppState().addFav = !FFAppState().addFav);
-                    },
-                    value: FFAppState().addFav,
-                    onIcon: Icon(
-                      Icons.favorite,
-                      color: FlutterFlowTheme.of(context).primary,
-                      size: 25.0,
-                    ),
-                    offIcon: Icon(
-                      Icons.favorite_border,
-                      color: FlutterFlowTheme.of(context).secondaryText,
-                      size: 25.0,
-                    ),
-                  ),
-                ),
               ),
             ],
           ),

@@ -77,25 +77,23 @@ service cloud.firestore {
       allow delete: if false;
     }
 
-    match /users/{document} {
+    match /topics/{document} {
       allow create: if true;
       allow read: if true;
       allow write: if false;
       allow delete: if false;
     }
 
-    match /chat_messages/{document} {
+    match /topics/{parent}/posts/{document} {
       allow create: if true;
       allow read: if true;
-      allow write: if false;
-      allow delete: if false;
+      allow write: if true;
+      allow delete: if true;
     }
 
-    match /chats/{document} {
-      allow create: if true;
+    match /{path=**}/posts/{document} {
       allow read: if true;
-      allow write: if false;
-      allow delete: if false;
     }
+
   }
 }

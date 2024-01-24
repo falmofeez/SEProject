@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'flutter_flow/request_manager.dart';
 import '/backend/backend.dart';
 import 'backend/api_requests/api_manager.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -22,7 +21,7 @@ class FFAppState extends ChangeNotifier {
   Future initializePersistedState() async {
     prefs = await SharedPreferences.getInstance();
     _safeInit(() {
-      _addFav = prefs.getBool('ff_addFav') ?? _addFav;
+      _addFavITP = prefs.getBool('ff_addFavITP') ?? _addFavITP;
     });
     _safeInit(() {
       _initialSearchJ1 =
@@ -43,6 +42,12 @@ class FFAppState extends ChangeNotifier {
               .toList() ??
           _savedToFav;
     });
+    _safeInit(() {
+      _addFavOOP = prefs.getBool('ff_addFavOOP') ?? _addFavOOP;
+    });
+    _safeInit(() {
+      _addFavDS = prefs.getBool('ff_addFavDS') ?? _addFavDS;
+    });
   }
 
   void update(VoidCallback callback) {
@@ -52,11 +57,11 @@ class FFAppState extends ChangeNotifier {
 
   late SharedPreferences prefs;
 
-  bool _addFav = false;
-  bool get addFav => _addFav;
-  set addFav(bool _value) {
-    _addFav = _value;
-    prefs.setBool('ff_addFav', _value);
+  bool _addFavITP = false;
+  bool get addFavITP => _addFavITP;
+  set addFavITP(bool _value) {
+    _addFavITP = _value;
+    prefs.setBool('ff_addFavITP', _value);
   }
 
   String _courseName1 = 'Introduction To Programming';
@@ -179,20 +184,19 @@ class FFAppState extends ChangeNotifier {
         'ff_savedToFav', _savedToFav.map((x) => x.path).toList());
   }
 
-  final _userDocQueryManager = FutureRequestManager<UserRecord>();
-  Future<UserRecord> userDocQuery({
-    String? uniqueQueryKey,
-    bool? overrideCache,
-    required Future<UserRecord> Function() requestFn,
-  }) =>
-      _userDocQueryManager.performRequest(
-        uniqueQueryKey: uniqueQueryKey,
-        overrideCache: overrideCache,
-        requestFn: requestFn,
-      );
-  void clearUserDocQueryCache() => _userDocQueryManager.clear();
-  void clearUserDocQueryCacheKey(String? uniqueKey) =>
-      _userDocQueryManager.clearRequest(uniqueKey);
+  bool _addFavOOP = false;
+  bool get addFavOOP => _addFavOOP;
+  set addFavOOP(bool _value) {
+    _addFavOOP = _value;
+    prefs.setBool('ff_addFavOOP', _value);
+  }
+
+  bool _addFavDS = false;
+  bool get addFavDS => _addFavDS;
+  set addFavDS(bool _value) {
+    _addFavDS = _value;
+    prefs.setBool('ff_addFavDS', _value);
+  }
 }
 
 LatLng? _latLngFromString(String? val) {

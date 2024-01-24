@@ -3,6 +3,7 @@ import '/entery_pages/menu/menu_widget.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_language_selector.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
+import '/flutter_flow/flutter_flow_toggle_icon.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
@@ -285,6 +286,30 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                                       ),
                                     ),
                                   ),
+                                  Expanded(
+                                    child: Align(
+                                      alignment: AlignmentDirectional(1.0, 1.0),
+                                      child: ToggleIcon(
+                                        onPressed: () async {
+                                          setState(() =>
+                                              FFAppState().addFavITP =
+                                                  !FFAppState().addFavITP);
+                                        },
+                                        value: FFAppState().addFavITP,
+                                        onIcon: Icon(
+                                          Icons.favorite_sharp,
+                                          color: Color(0xFFCB000D),
+                                          size: 25.0,
+                                        ),
+                                        offIcon: Icon(
+                                          Icons.favorite_border,
+                                          color: FlutterFlowTheme.of(context)
+                                              .secondaryText,
+                                          size: 25.0,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
                                 ],
                               ),
                             ),
@@ -342,56 +367,87 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                                       child: Row(
                                         mainAxisSize: MainAxisSize.min,
                                         children: [
-                                          Align(
-                                            alignment: AlignmentDirectional(
-                                                -1.0, -1.0),
-                                            child: Padding(
-                                              padding: EdgeInsetsDirectional
-                                                  .fromSTEB(
-                                                      10.0, 15.0, 0.0, 0.0),
-                                              child: AuthUserStreamWidget(
-                                                builder: (context) => InkWell(
-                                                  splashColor:
-                                                      Colors.transparent,
-                                                  focusColor:
-                                                      Colors.transparent,
-                                                  hoverColor:
-                                                      Colors.transparent,
-                                                  highlightColor:
-                                                      Colors.transparent,
-                                                  onTap: () async {
-                                                    context.pushNamed(
-                                                        'learningMaterialOOP');
-                                                  },
-                                                  child: Text(
-                                                    valueOrDefault<String>(
-                                                      valueOrDefault(
-                                                          currentUserDocument
-                                                              ?.coursname1,
-                                                          ''),
-                                                      'Object Oriented Programming',
-                                                    ),
-                                                    style: FlutterFlowTheme.of(
-                                                            context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'Outfit',
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
-                                                              .tertiary,
-                                                          useGoogleFonts: GoogleFonts
-                                                                  .asMap()
-                                                              .containsKey(
-                                                                  FlutterFlowTheme.of(
-                                                                          context)
-                                                                      .bodyMediumFamily),
+                                          Row(
+                                            mainAxisSize: MainAxisSize.max,
+                                            children: [
+                                              Align(
+                                                alignment: AlignmentDirectional(
+                                                    -1.0, -1.0),
+                                                child: Padding(
+                                                  padding: EdgeInsetsDirectional
+                                                      .fromSTEB(
+                                                          10.0, 15.0, 0.0, 0.0),
+                                                  child: AuthUserStreamWidget(
+                                                    builder: (context) =>
+                                                        InkWell(
+                                                      splashColor:
+                                                          Colors.transparent,
+                                                      focusColor:
+                                                          Colors.transparent,
+                                                      hoverColor:
+                                                          Colors.transparent,
+                                                      highlightColor:
+                                                          Colors.transparent,
+                                                      onTap: () async {
+                                                        context.pushNamed(
+                                                            'learningMaterialOOP');
+                                                      },
+                                                      child: Text(
+                                                        valueOrDefault<String>(
+                                                          valueOrDefault(
+                                                              currentUserDocument
+                                                                  ?.coursname1,
+                                                              ''),
+                                                          'Object Oriented Programming',
                                                         ),
+                                                        style:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .bodyMedium
+                                                                .override(
+                                                                  fontFamily:
+                                                                      'Outfit',
+                                                                  color: FlutterFlowTheme.of(
+                                                                          context)
+                                                                      .tertiary,
+                                                                  useGoogleFonts: GoogleFonts
+                                                                          .asMap()
+                                                                      .containsKey(
+                                                                          FlutterFlowTheme.of(context)
+                                                                              .bodyMediumFamily),
+                                                                ),
+                                                      ),
+                                                    ),
                                                   ),
                                                 ),
                                               ),
-                                            ),
+                                            ],
                                           ),
                                         ],
+                                      ),
+                                    ),
+                                  ),
+                                  Expanded(
+                                    child: Align(
+                                      alignment: AlignmentDirectional(1.0, 1.0),
+                                      child: ToggleIcon(
+                                        onPressed: () async {
+                                          setState(() =>
+                                              FFAppState().addFavOOP =
+                                                  !FFAppState().addFavOOP);
+                                        },
+                                        value: FFAppState().addFavOOP,
+                                        onIcon: Icon(
+                                          Icons.favorite,
+                                          color: Color(0xFFCB000D),
+                                          size: 25.0,
+                                        ),
+                                        offIcon: Icon(
+                                          Icons.favorite_border,
+                                          color: FlutterFlowTheme.of(context)
+                                              .secondaryText,
+                                          size: 25.0,
+                                        ),
                                       ),
                                     ),
                                   ),
@@ -482,6 +538,29 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                                         ),
                                       ),
                                     ],
+                                  ),
+                                ),
+                                Expanded(
+                                  child: Align(
+                                    alignment: AlignmentDirectional(1.0, 1.0),
+                                    child: ToggleIcon(
+                                      onPressed: () async {
+                                        setState(() => FFAppState().addFavDS =
+                                            !FFAppState().addFavDS);
+                                      },
+                                      value: FFAppState().addFavDS,
+                                      onIcon: Icon(
+                                        Icons.favorite,
+                                        color: Color(0xFFCB000D),
+                                        size: 25.0,
+                                      ),
+                                      offIcon: Icon(
+                                        Icons.favorite_border,
+                                        color: FlutterFlowTheme.of(context)
+                                            .secondaryText,
+                                        size: 25.0,
+                                      ),
+                                    ),
                                   ),
                                 ),
                               ],

@@ -177,11 +177,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => TermsOfServiceWidget(),
         ),
         FFRoute(
-          name: 'DiscussionPage',
-          path: '/discussionPage',
-          builder: (context, params) => DiscussionPageWidget(),
-        ),
-        FFRoute(
           name: 'finishpage',
           path: '/finishpage',
           builder: (context, params) => FinishpageWidget(
@@ -218,42 +213,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'C105',
           path: '/c105',
           builder: (context, params) => C105Widget(),
-        ),
-        FFRoute(
-          name: 'chat_2_Details',
-          path: '/chat2Details',
-          asyncParams: {
-            'chatRef': getDoc(['chats'], ChatsRecord.fromSnapshot),
-          },
-          builder: (context, params) => Chat2DetailsWidget(
-            chatRef: params.getParam('chatRef', ParamType.Document),
-          ),
-        ),
-        FFRoute(
-          name: 'chat_2_main',
-          path: '/chat2Main',
-          builder: (context, params) => Chat2MainWidget(),
-        ),
-        FFRoute(
-          name: 'chat_2_InviteUsers',
-          path: '/chat2InviteUsers',
-          asyncParams: {
-            'chatRef': getDoc(['chats'], ChatsRecord.fromSnapshot),
-          },
-          builder: (context, params) => Chat2InviteUsersWidget(
-            chatRef: params.getParam('chatRef', ParamType.Document),
-          ),
-        ),
-        FFRoute(
-          name: 'image_Details',
-          path: '/imageDetails',
-          asyncParams: {
-            'chatMessage':
-                getDoc(['chat_messages'], ChatMessagesRecord.fromSnapshot),
-          },
-          builder: (context, params) => ImageDetailsWidget(
-            chatMessage: params.getParam('chatMessage', ParamType.Document),
-          ),
         ),
         FFRoute(
           name: 'learningMaterialDT',
@@ -309,6 +268,19 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'C305',
           path: '/c305',
           builder: (context, params) => C305Widget(),
+        ),
+        FFRoute(
+          name: 'DiscussionPage',
+          path: '/discussionPage',
+          builder: (context, params) => DiscussionPageWidget(),
+        ),
+        FFRoute(
+          name: 'chat',
+          path: '/chat',
+          builder: (context, params) => ChatWidget(
+            topicid: params.getParam(
+                'topicid', ParamType.DocumentReference, false, ['topics']),
+          ),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
       observers: [routeObserver],

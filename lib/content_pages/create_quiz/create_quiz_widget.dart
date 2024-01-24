@@ -89,7 +89,7 @@ class _CreateQuizWidgetState extends State<CreateQuizWidget> {
               'uyjgvsem' /* Create quiz */,
             ),
             style: FlutterFlowTheme.of(context).headlineMedium.override(
-                  fontFamily: 'Montserrat',
+                  fontFamily: 'Outfit',
                   color: Colors.white,
                   fontSize: 22.0,
                   useGoogleFonts: GoogleFonts.asMap().containsKey(

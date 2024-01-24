@@ -317,10 +317,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Terms of Services',
       'ar': 'شروط الخدمة',
     },
-    '4osrzuy3': {
-      'en': 'Invite friends',
-      'ar': 'ادعو أصدقاء',
-    },
     '47fyjs32': {
       'en': 'Delete Account',
       'ar': 'حذف الحساب',
@@ -663,73 +659,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ar': 'بيت',
     },
   },
-  // DiscussionPage
-  {
-    'z5dyfm2l': {
-      'en': 'Randy Mcdonald',
-      'ar': 'راندي ماكدونالد',
-    },
-    '47s9s9ma': {
-      'en':
-          'This was really great, i\'m so glad that we could  catchup this weekend.',
-      'ar':
-          'لقد كان هذا رائعًا حقًا، وأنا سعيد جدًا لأننا تمكنا من اللحاق في نهاية هذا الأسبوع.',
-    },
-    'tx773ss6': {
-      'en': 'Mon. July 3rd - 4:12pm',
-      'ar': 'الاثنين. 3 يوليو - 4:12 مساءً',
-    },
-    'ksj2xor5': {
-      'en': 'Randy Mcdonald',
-      'ar': 'راندي ماكدونالد',
-    },
-    'jjyqmnqb': {
-      'en':
-          'This was really great, i\'m so glad that we could  catchup this weekend.',
-      'ar':
-          'لقد كان هذا رائعًا حقًا، وأنا سعيد جدًا لأننا تمكنا من اللحاق في نهاية هذا الأسبوع.',
-    },
-    'ltogq4p8': {
-      'en': 'Mon. July 3rd - 4:12pm',
-      'ar': 'الاثنين. 3 يوليو - 4:12 مساءً',
-    },
-    'xgaemhv6': {
-      'en': 'Randy Mcdonald',
-      'ar': 'راندي ماكدونالد',
-    },
-    '6xhp07kz': {
-      'en':
-          'This was really great, i\'m so glad that we could  catchup this weekend.',
-      'ar':
-          'لقد كان هذا رائعًا حقًا، وأنا سعيد جدًا لأننا تمكنا من اللحاق في نهاية هذا الأسبوع.',
-    },
-    'r2nmd62a': {
-      'en': 'Mon. July 3rd - 4:12pm',
-      'ar': 'الاثنين. 3 يوليو - 4:12 مساءً',
-    },
-    'cf89n1d3': {
-      'en': 'Randy Mcdonald',
-      'ar': 'راندي ماكدونالد',
-    },
-    '4lshy4b2': {
-      'en':
-          'This was really great, i\'m so glad that we could  catchup this weekend.',
-      'ar':
-          'لقد كان هذا رائعًا حقًا، وأنا سعيد جدًا لأننا تمكنا من اللحاق في نهاية هذا الأسبوع.',
-    },
-    'byi44osm': {
-      'en': 'Mon. July 3rd - 4:12pm',
-      'ar': 'الاثنين. 3 يوليو - 4:12 مساءً',
-    },
-    'tduo0h79': {
-      'en': 'My Chats',
-      'ar': 'دردشاتي',
-    },
-    'r6ha24lz': {
-      'en': '__',
-      'ar': '__',
-    },
-  },
   // finishpage
   {
     '18329hxj': {
@@ -827,62 +756,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ar': '05 الأساسيات - السلسلة',
     },
     'ju2j76j9': {
-      'en': 'Home',
-      'ar': 'بيت',
-    },
-  },
-  // chat_2_Details
-  {
-    'irzzdyt6': {
-      'en': 'Group Chat',
-      'ar': 'مجموعة محادثة',
-    },
-    '898vm4px': {
-      'en': 'Home',
-      'ar': 'بيت',
-    },
-  },
-  // chat_2_main
-  {
-    'iriq0lp0': {
-      'en': 'Below are your chats and group chats',
-      'ar': 'فيما يلي الدردشات والمحادثات الجماعية الخاصة بك',
-    },
-    'f09uu8za': {
-      'en': 'My Chats',
-      'ar': 'دردشاتي',
-    },
-    'jvhkftt7': {
-      'en': '__',
-      'ar': '__',
-    },
-  },
-  // chat_2_InviteUsers
-  {
-    'qsx5exg0': {
-      'en': 'Invite Friends',
-      'ar': 'ادعو أصدقاء',
-    },
-    'ig07fdxc': {
-      'en': 'Selected',
-      'ar': 'المحدد',
-    },
-    'd9i9txrr': {
-      'en': 'Invite Friends',
-      'ar': 'ادعو أصدقاء',
-    },
-    'sop0w9w0': {
-      'en': 'Select users from below to start a chat.',
-      'ar': 'حدد المستخدمين من الأسفل لبدء الدردشة.',
-    },
-    'y3ulzi50': {
-      'en': 'Home',
-      'ar': 'بيت',
-    },
-  },
-  // image_Details
-  {
-    '4d5mx1ve': {
       'en': 'Home',
       'ar': 'بيت',
     },
@@ -1028,6 +901,40 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ar': '',
     },
   },
+  // DiscussionPage
+  {
+    'b66ntu0n': {
+      'en': 'Discussion Boards',
+      'ar': '',
+    },
+    'xh17qpi5': {
+      'en': 'Home',
+      'ar': '',
+    },
+  },
+  // chat
+  {
+    '0ydlpmss': {
+      'en': 'Group',
+      'ar': '',
+    },
+    'dth5cgqb': {
+      'en': 'Student',
+      'ar': '',
+    },
+    '208o39j2': {
+      'en': 'Type here...',
+      'ar': '',
+    },
+    'd31joro6': {
+      'en': 'Send',
+      'ar': '',
+    },
+    'hirdc4xo': {
+      'en': 'Home',
+      'ar': '',
+    },
+  },
   // menu
   {
     'h9jxnp9a': {
@@ -1068,70 +975,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     'hqn36zo1': {
       'en': 'submit',
       'ar': 'تسليم',
-    },
-  },
-  // chat_DetailsOverlay
-  {
-    'cqvtpbx5': {
-      'en': 'Group Chat ID: ',
-      'ar': 'معرف الدردشة الجماعية:',
-    },
-    'jg7is68v': {
-      'en': 'In this chat',
-      'ar': 'في هذه الدردشة',
-    },
-    '24j26pzl': {
-      'en': 'Close',
-      'ar': 'يغلق',
-    },
-  },
-  // chat_ThreadComponent
-  {
-    'wxi1zc8r': {
-      'en': 'Start typing here...',
-      'ar': 'ابدأ بالكتابة هنا...',
-    },
-    'n6irfix8': {
-      'en': 'You must enter a message...',
-      'ar': 'يجب عليك إدخال رسالة...',
-    },
-    'uinhc8t3': {
-      'en': 'Please choose an option from the dropdown',
-      'ar': 'يرجى اختيار خيار من القائمة المنسدلة',
-    },
-  },
-  // user_ListSmall
-  {
-    'rl3evtgt': {
-      'en': 'ME',
-      'ar': 'أنا',
-    },
-  },
-  // deleteDialog
-  {
-    'vpwity6o': {
-      'en': 'Options',
-      'ar': 'خيارات',
-    },
-    'zaks648k': {
-      'en': 'Invite Users',
-      'ar': 'دعوة المستخدمين',
-    },
-    '5ihdh1df': {
-      'en': 'Delete Chat',
-      'ar': 'حذف الدردشة',
-    },
-    'mh74pqq3': {
-      'en': 'Confirm Delete',
-      'ar': 'تأكيد الحذف',
-    },
-    'fcdcbj6b': {
-      'en': 'You can\'t undo this action.',
-      'ar': 'لا يمكنك التراجع عن هذا الإجراء.',
-    },
-    'id3lww6u': {
-      'en': 'Delete',
-      'ar': 'يمسح',
     },
   },
   // Miscellaneous
